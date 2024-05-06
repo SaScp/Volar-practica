@@ -1,19 +1,36 @@
+
 .header_container {
     overflow: hidden; 
     align-items: center;
     margin: 0 auto;
-    max-width: 990px;
+    max-width: 1200px;
 }
 .svg_search_and_contact {
     float: right;
     padding: 20px;
     display: block;
     width: auto;
+
 }
 .svg_logo {
     float: left;
     padding: 40px;
     display: block;
+}
+.start_info{
+    font-family: var(--body-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #e34c48;
+}
+.start_info_h2 {
+    white-space: pre-line;
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: capitalize;
+    fill: #2c2c2c;
 }
 
 .contact-us-button {
