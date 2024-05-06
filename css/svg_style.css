@@ -1,0 +1,25 @@
+
+.search_button {
+    background-color: transparent;
+    cursor: pointer; 
+    border: none;
+}
+.watch_img {
+   margin: 0 auto;
+}
+.main_background {
+    background-image: url("/img/bac2.svg");
+    background-position: 255px;
+    background-size: cover
+}
+.search_button:hover svg {
+    width: 30px;
+    height: 30px;
+    fill: #ff0033;
+    transition: 0.5s ease;
+}
+.svg_logo {
+    float: left;
+    padding: 40px;
+    display: block;
+}

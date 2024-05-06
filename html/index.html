@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Практика</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/svg_style.css">
+    <link rel="stylesheet" href="/css/pruduct_style.css">
+    <link rel="stylesheet" href="/css/first_page_main.css">
 </head>
 <body>
 <header>
@@ -26,18 +29,14 @@
         <div class="svg_search_and_contact">
             <ul>
                 <div>
-                    <button class="search_button" onclick="goToLink()">
+                    <button class="search_button">
                         <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
                              xmlns="http://www.w3.org/2000/svg" class="svg_search">
                             <path d="M21.8679 20.9494L16.3939 15.2561C17.8013 13.5829 18.5725 11.4778 18.5725 9.28624C18.5725 4.16589 14.4066 0 9.28624 0C4.16589 0 0 4.16589 0 9.28624C0 14.4066 4.16589 18.5725 9.28624 18.5725C11.2085 18.5725 13.0403 17.9927 14.6064 16.8921L20.1221 22.6286C20.3526 22.868 20.6627 23 20.995 23C21.3095 23 21.6079 22.8801 21.8344 22.6621C22.3156 22.199 22.331 21.431 21.8679 20.9494ZM9.28624 2.4225C13.071 2.4225 16.15 5.50149 16.15 9.28624C16.15 13.071 13.071 16.15 9.28624 16.15C5.50149 16.15 2.4225 13.071 2.4225 9.28624C2.4225 5.50149 5.50149 2.4225 9.28624 2.4225Z"
                                   fill="black"/>
                         </svg>
                     </button>
-                    <script>
-                        function goToLink() {
-                            window.location.href = "https://www.youtube.com/watch?v=lr1rYnUubpQ";
-                        }
-                    </script>
+                
                 </div>
                 <div>
                     <svg width="1" height="30" viewBox="0 0 1 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -46,35 +45,32 @@
                     </svg>
                 </div>
                 <div>
-                    <button class="contact-us-button">
+                    <button class="contact-us-button" onclick="goToLink()">
                         Contact Us
                     </button>
                 </div>
             </ul>
         </div>
     </div>
-
 </header>
-<div class="container">
-</div>
-<div>
-    <div class="main_page">
-        <div class="main_info">
-            <div class="main_info_containt">
-                <p class="start_info">smart watch</p>
-                <h1 class="start_info_h2">This will change your
-                    life forever</h1>
-                <a>"Revolutionize Your Life with the Ultimate Smartwatch"</a>
-                <h3>$125.00</h3>
-                <button class="contact-us-button">
-                    Buy Now
-                </button>
-            </div>
-            <div class="sliding_items">
-                <ul>
+<div class="main_background">
+    <img>
+        <div class="main_page">
+            <div class="main_info">
+                <div class="main_info_containt">
+                    <p class="start_info">smart watch</p>
+                    <h1 class="start_info_h2">This will change your
+                        life forever</h1>
+                    <a>"Revolutionize Your Life with the Ultimate Smartwatch"</a>
+                    <h3>$125.00</h3>
+                    <button class="contact-us-button" onclick="goToLinkNotFound()">
+                        Buy Now
+                    </button>
+                </div>
+                <div class="sliding_items">
                     <div class="product">
-                        <img src="/img/log2.svg">
-                        <div>
+                        <img class="image_item" src="/img/log2.svg">
+                        <div class="hidden-text">
                             <p>Apple Watch SE</p>
                             <span>$120.00</span>
                             <img src="/img/star/star1.svg">
@@ -86,22 +82,23 @@
                     <div class="product">
                         <img src="/img/log4.svg">
                     </div>
-                </ul>
+                </div>
+            </div>
+            <img src="/img/big_log.svg" class="watch_img">
+        
+            <div class="sliding_img">
+                <div class="img">
+                    <img src="/img/mini_watch_1.svg">
+                </div>
+                <div class="img">
+                    <img src="/img/mini_watch_2.svg">
+                </div>
+                <div class="img">
+                    <img src="/img/mini_watch_3.svg">
+                </div>
             </div>
         </div>
-        <img src="/img/log1.svg" class="watch_img">
-        <div class="sliding_img">
-            <div>
-                slide 1
-            </div>
-            <div>
-                slide 2
-            </div>
-            <div>
-                slide 3
-            </div>
-        </div>
-    </div>
+        <script src="/js/main.js"></script>
 </div>
 </body>
 </html>
