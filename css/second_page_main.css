@@ -1,0 +1,28 @@
+.second_zagolovok {
+
+    font-family: var(--font-family);
+    white-space: pre-line;
+    font-weight: bold;
+    text-align: center;
+    font-size: 46px;
+    text-transform: capitalize;
+    fill: #2c2c2c;
+    width: auto;
+    margin: 0px;
+}
+.second_background {
+    padding: 119px 0px;
+}
+.second_text{
+    font-family: var(--second-family);
+font-weight: 300;
+font-size: 16px;
+white-space: pre-line;
+text-align: center;
+color: #4b4b4b;
+margin: 0 auto;
+}
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Poppins", sans-serif;
+  }
