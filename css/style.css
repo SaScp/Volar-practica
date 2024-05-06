@@ -1,0 +1,82 @@
+.header_container {
+    overflow: hidden; 
+    align-items: center;
+    margin: 0 auto;
+    max-width: 990px;
+}
+.svg_search_and_contact {
+    float: right;
+    padding: 20px;
+    display: block;
+    width: auto;
+}
+.svg_logo {
+    float: left;
+    padding: 40px;
+    display: block;
+}
+
+.contact-us-button {
+    background-color: #ff4d4d; /* Красный цвет */
+    color: #fff; /* Белый цвет */
+    padding: 10px 20px; /* Отступ внутри кнопки */
+    border: none; /* Убрать границу */
+    border-radius: 5px; /* Скругленные углы */
+    cursor: pointer; /* Указать курсор */
+    transition: background-color 0.3s ease; /* Сделать плавный переход цвета при наведении */
+    margin: -3px;
+  }
+  
+.contact-us-button:hover {
+    width: 120px;
+    height: 45px;
+    background-color: #d93939; /* Темно-красный цвет при наведении */
+}
+.svg_search_and_contact div {
+    float: left;
+    padding: 0px 10px;
+}
+.svg_search_and_contact svg {
+    display: block;
+    padding: 7% 7%;
+}
+.search_button {
+    background-color: transparent;
+    cursor: pointer; 
+    border: none;
+}
+.search_button:hover svg {
+    width: 30px;
+    height: 30px;
+    fill: #ff0033;
+}
+.main_page {
+    margin: 0 auto;
+    display: flex;
+
+}
+.watch_img {
+    margin: 0 auto;
+    padding: 170px 0px;
+}
+.main_info {
+    margin: 0 auto;
+    padding: 170px 0px;
+}
+.sliding_items {
+    float: right;
+    padding: 20px;
+    display: block;
+    width: auto;
+}
+.sliding_items div {
+    float: left;
+    padding: 0px 10px;
+}
+.product {
+    display: flex;
+    padding: 4px 4px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 100px;
+}
