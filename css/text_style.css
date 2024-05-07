@@ -1,0 +1,80 @@
+.hidden-text {
+    transition: 1s ease;
+    display: none; /* Скрыть текст */
+    position: absolute; /* Абсолютное позиционирование */
+    top: 0; /* Расположить сверху */
+    left: 80px; /* Расположить слева */
+}
+
+.product:hover::after .hidden-text {
+    display: block; /* Отобразить текст при наведении */
+}
+.hidden-text {
+    display: none; /* Скрыть текст */
+}
+.product:hover .hidden-text {
+    display: block; /* Отобразить текст при наведении */
+}
+.info_containt p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #e34c48;
+}
+.a {
+    font-family: var(--font-family);
+}
+.info_containt h1 {
+    font-family: var(--font-family);
+    white-space: pre-line;
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: capitalize;
+    fill: #2c2c2c;
+}
+.second_zagolovok {
+
+    font-family: var(--font-family);
+    white-space: pre-line;
+    font-weight: bold;
+    text-align: center;
+    font-size: 46px;
+    text-transform: capitalize;
+    fill: #2c2c2c;
+    width: auto;
+    margin: 0px;
+}
+.second_text{
+    font-family: var(--second-family);
+font-weight: 200;
+font-size: 16px;
+white-space: pre-line;
+text-align: center;
+color: #4b4b4b;
+margin: 0 auto;
+}
+.page2_item p {
+    font-family: var(--second-family);
+    font-size: 15px;
+    padding-left: 40px;
+    padding: 0px 40px 0px 42px;
+}
+.page2_item h2 {
+    font-family: var(--second-family);
+    font-size: 15px;
+    padding-left: 40px;
+    padding: 0px 40px 0px 42px;
+}
+.page2_item h2 {
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 22px;
+text-transform: capitalize;
+color: #2c2c2c;
+}
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Poppins", sans-serif;
+  }

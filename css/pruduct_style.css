@@ -15,24 +15,6 @@
     position: relative; 
     margin-left: 5px;
 }
-
-.hidden-text {
-    transition: 1s ease;
-    display: none; /* Скрыть текст */
-    position: absolute; /* Абсолютное позиционирование */
-    top: 0; /* Расположить сверху */
-    left: 80px; /* Расположить слева */
-}
-
-.product:hover::after .hidden-text {
-    display: block; /* Отобразить текст при наведении */
-}
-.hidden-text {
-    display: none; /* Скрыть текст */
-}
-.product:hover .hidden-text {
-    display: block; /* Отобразить текст при наведении */
-}
 .product:hover {
     padding: 4px 150px 0px 0px;
     border-radius: 100%;
