@@ -9,13 +9,16 @@
 .product:hover::after .hidden-text {
     display: block; /* Отобразить текст при наведении */
 }
+
 .hidden-text {
     display: none; /* Скрыть текст */
 }
+
 .product:hover .hidden-text {
     display: block; /* Отобразить текст при наведении */
 }
-.info_containt p{
+
+.info_containt p {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
@@ -23,9 +26,16 @@
     text-transform: uppercase;
     color: #e34c48;
 }
+
+.galochka_item a {
+    display: flex;
+    padding: 5px;
+}
+
 .a {
     font-family: var(--font-family);
 }
+
 .info_containt h1 {
     font-family: var(--font-family);
     white-space: pre-line;
@@ -34,8 +44,8 @@
     text-transform: capitalize;
     fill: #2c2c2c;
 }
-.second_zagolovok {
 
+.second_zagolovok {
     font-family: var(--font-family);
     white-space: pre-line;
     font-weight: bold;
@@ -43,38 +53,54 @@
     font-size: 46px;
     text-transform: capitalize;
     fill: #2c2c2c;
-    width: auto;
-    margin: 0px;
+    margin: 0 auto;
 }
-.second_text{
+
+.second_text {
     font-family: var(--second-family);
-font-weight: 200;
-font-size: 16px;
-white-space: pre-line;
-text-align: center;
-color: #4b4b4b;
-margin: 0 auto;
+    font-weight: 200;
+    font-size: 16px;
+    white-space: pre-line;
+    text-align: center;
+    color: #4b4b4b;
+    margin: 0 auto;
+    padding-top: 20px;
 }
+
 .page2_item p {
     font-family: var(--second-family);
     font-size: 15px;
-    padding-left: 40px;
     padding: 0px 40px 0px 42px;
 }
+
 .page2_item h2 {
     font-family: var(--second-family);
     font-size: 15px;
-    padding-left: 40px;
     padding: 0px 40px 0px 42px;
 }
+
 .page2_item h2 {
-font-family: var(--font-family);
-font-weight: 700;
-font-size: 22px;
-text-transform: capitalize;
-color: #2c2c2c;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #2c2c2c;
 }
+
+.page3_text {
+    font-family: var(--font-family);
+    white-space: pre-line;
+    color: #4B4B4B;
+}
+
+.galochka_item {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #2c2c2c;
+}
+
 :root {
     --font-family: "Montserrat", sans-serif;
     --second-family: "Poppins", sans-serif;
-  }
+}

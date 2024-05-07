@@ -2,6 +2,7 @@
     float: left;
     padding: 200px 0px 0px 0px;
 }
+
 .img {
     padding: 6px 6px 6px 6px;
     background: #faf8f9;
@@ -9,6 +10,7 @@
     margin-top: 15px;
     filter: grayscale(25%) opacity(25%);
 }
+
 .img:hover {
     padding: 12px 12px 12px 12px;
     background-color: white;
@@ -17,12 +19,23 @@
     transition: 0.5s ease;
     filter: blur(0);
 }
+
 .main_page {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
+
 .main_info {
     margin: 0 auto;
     padding: 170px 100px;
+}
+
+.slider_watch {
+    margin: auto auto;
+    display: flex;
+}
+
+.main_background {
+    background-image: url("/img/bac2.svg");
 }

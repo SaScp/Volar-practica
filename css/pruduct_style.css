@@ -12,12 +12,11 @@
 .product {
     border-radius: 15px;
     border: solid 1px rgba(128, 128, 128, 0.1);
-    position: relative; 
+    position: relative;
     margin-left: 5px;
 }
 .product:hover {
     padding: 4px 150px 0px 0px;
-    border-radius: 100%;
     background-color: white;
     border-radius: 15px;
     border: grey;

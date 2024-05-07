@@ -1,9 +1,10 @@
 .header_container {
-    overflow: hidden; 
+    overflow: hidden;
     align-items: center;
     margin: 0 auto;
     max-width: 1500px;
 }
+
 .svg_search_and_contact {
     float: right;
     padding: 20px;
@@ -11,10 +12,12 @@
     width: auto;
 
 }
+
 :root {
     --font-family: "Montserrat", sans-serif;
     --second-family: "Poppins", sans-serif;
-  }
+}
+
 .contact-us-button {
     font-family: var(--font-family);
     background-color: #ff4d4d; /* Красный цвет */
@@ -24,18 +27,20 @@
     border-radius: 5px; /* Скругленные углы */
     cursor: pointer; /* Указать курсор */
     margin: -3px;
-  }
-  
+}
+
 .contact-us-button:hover {
     transition: 0.5s ease;
     width: 120px;
     height: 45px;
     background-color: #d93939; /* Темно-красный цвет при наведении */
 }
+
 .svg_search_and_contact div {
     float: left;
     padding: 0px 10px;
 }
+
 .svg_search_and_contact svg {
     display: block;
     padding: 7% 7%;

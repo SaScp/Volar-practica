@@ -10,7 +10,14 @@
 .main_background {
     background-image: url("/img/bac2.svg");
     background-position: 255px;
-    background-size: cover
+    background-size: cover;
+}
+.thrid_background {
+    background-image: url("/img/bac3.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 300px;
+    background-attachment: fixed;
 }
 .search_button:hover svg {
     width: 30px;

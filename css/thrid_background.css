@@ -1,14 +1,17 @@
-.third_background{
+.third_background {
     display: flex;
-
 }
+
 .galochka_items {
     display: flex;
 }
+
 .galochka_item {
     display: flex;
     padding: 7px;
+
 }
+
 .page3-contact-us-button {
     font-family: var(--font-family);
     background-color: #ff4d4d; /* Красный цвет */
@@ -18,15 +21,27 @@
     border-radius: 5px; /* Скругленные углы */
     cursor: pointer; /* Указать курсор */
     margin: -3px;
-  }
-  
-  .page3-contact-us-button:hover {
+}
+
+.page3-contact-us-button:hover {
     transition: 0.5s ease;
     width: 120px;
     height: 45px;
     background-color: #d93939; /* Темно-красный цвет при наведении */
 }
-.page3_info_containt {
-   display: flex;
-   flex-direction: column;
+
+.main_page3_page {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+._watch {
+    margin: 0 auto;
+    padding-left: 100px;
+}
+
+.page3_text {
+    white-space: pre-line;
+    color: #4B4B4B;
 }
