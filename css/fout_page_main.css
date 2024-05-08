@@ -1,0 +1,223 @@
+.service-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 50px;
+    padding: 0 37px 0 20px;
+}
+
+.service-feature-title {
+    color: #2c2c2c;
+    text-transform: capitalize;
+    margin: 0 auto;
+    font: 700 42px/131% Montserrat, sans-serif;
+}
+
+@media (max-width: 1190px) {
+    .service-feature-title {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .service-feature-title {
+        margin: 0 -3px 0 2px;
+    }
+}
+
+.service-feature-content {
+    width: 100%;
+    max-width: 1401px;
+    margin-left: 32px;
+
+}
+
+@media (max-width: 1190px) {
+    .service-feature-content {
+        max-width: 100%;
+    }
+}
+
+.service-feature-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 1190px) {
+    .service-feature-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+    }
+}
+
+.service-feature-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 24%;
+    margin-left: 0px;
+}
+
+@media (max-width: 1190px) {
+    .service-feature-column {
+        width: 100%;
+    }
+}
+
+.service-feature-item {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    font-size: 22px;
+    color: #2c2c2c;
+    font-weight: 700;
+    text-align: right;
+    margin: auto 0;
+}
+
+@media (max-width: 1190px) {
+    .service-feature-item {
+        margin-top: 40px;
+    }
+}
+
+.service-feature-item-right {
+    display: flex;
+    padding-left: 35px;
+    flex-direction: column;
+    align-items: end;
+    margin: auto 0;
+}
+
+@media (max-width: 1190px) {
+    .service-feature-item-right {
+        padding-left: 20px;
+        margin-top: 40px;
+    }
+}
+
+.service-feature-item-right-title {
+    font-family: Montserrat, sans-serif;
+    text-transform: capitalize;
+}
+
+.service-feature-item-bottom {
+    font-family: Montserrat, sans-serif;
+    text-transform: capitalize;
+    margin-top: 77px;
+}
+
+@media (max-width: 1190px) {
+    .service-feature-item-bottom {
+        margin-top: 40px;
+    }
+}
+
+
+.service-feature-column-center {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 52%;
+    margin-left: 20px;
+}
+
+@media (max-width: 1190px) {
+    .service-feature-column-center {
+        width: 100%;
+    }
+}
+
+.service-feature-center-content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 1190px) {
+    .service-feature-center-content {
+        max-width: 100%;
+        margin-top: 13px;
+    }
+}
+
+
+.service-feature-column-right {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 24%;
+    margin-left: 20px;
+}
+
+@media (max-width: 1190px) {
+    .service-feature-column-right {
+        width: 100%;
+    }
+}
+
+.service-feature-item-right-content {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    font-size: 22px;
+    color: #2c2c2c;
+    font-weight: 700;
+    margin: auto 0;
+}
+
+@media (max-width: 1190px) {
+    .service-feature-item-right-content {
+        margin-top: 40px;
+    }
+}
+
+.service-feature-item-right-title {
+    font-family: Montserrat, sans-serif;
+    text-transform: capitalize;
+}
+
+.service-feature-item-right-description {
+    color: #4b4b4b;
+    margin-top: 23px;
+    font: 300 16px Poppins, sans-serif;
+}
+
+.service-feature-item-right-middle {
+    font-family: Montserrat, sans-serif;
+    text-transform: capitalize;
+    margin-top: 100px;
+}
+
+@media (max-width: 1190px) {
+    .service-feature-item-right-middle {
+        margin-top: 40px;
+    }
+}
+
+.service-feature-item-right-middle-description {
+    color: #4b4b4b;
+    margin-top: 27px;
+    font: 300 16px Poppins, sans-serif;
+}
+
+.service-feature-item-right-bottom {
+    font-family: Montserrat, sans-serif;
+    text-transform: capitalize;
+    margin-top: 54px;
+}
+
+@media (max-width: 1190px) {
+    .service-feature-item-right-bottom {
+        margin-top: 40px;
+    }
+}
+
+.service-feature-item-right-bottom-description {
+    color: #4b4b4b;
+    margin-top: 23px;
+    font: 300 16px Poppins, sans-serif;
+}

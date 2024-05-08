@@ -99,7 +99,34 @@
     font-size: 16px;
     color: #2c2c2c;
 }
+.service-feature-center-description {
+    color: #4b4b4b;
+    font: 300 16px Poppins, sans-serif;
+    margin: 16px;
+  }
 
+  @media (max-width: 991px) {
+    .service-feature-center-description {
+      max-width: 100%;
+    }
+  }
+  .service-feature-item-right-description {
+    color: #4b4b4b;
+    align-self: start;
+    margin-top: 23px;
+    font: 300 16px Poppins, sans-serif;
+  }
+  .service-feature-item-title {
+    font-family: Montserrat, sans-serif;
+    text-transform: capitalize;
+    align-self: end;
+  }
+
+  .service-feature-item-description {
+    color: #4b4b4b;
+    margin-top: 23px;
+    font: 300 16px Poppins, sans-serif;
+  }
 :root {
     --font-family: "Montserrat", sans-serif;
     --second-family: "Poppins", sans-serif;
