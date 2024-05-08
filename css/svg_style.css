@@ -8,15 +8,21 @@
    margin: 0 auto;
 }
 .main_background {
-    background-image: url("/img/bac2.svg");
+    background-image: url("/img/background/bac2.svg");
     background-position: 255px;
     background-size: cover;
 }
 .thrid_background {
-    background-image: url("/img/bac3.svg");
+    background-image: url("/img/background/bac3.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 300px;
+}
+@media (max-width: 1259px) {
+        .main_background {
+            background: transparent; 
+      }
+
 }
 .search_button:hover svg {
     width: 30px;

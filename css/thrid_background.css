@@ -1,5 +1,6 @@
 .third_background {
     display: flex;
+    
 }
 
 .galochka_items {
@@ -34,11 +35,16 @@
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    max-width: 1800px;
+}
+.page3_main_info {
+    margin: 0 auto;
+    padding: 40px 40px;
 }
 
 ._watch {
     margin: 0 auto;
-    padding-left: 100px;
+    padding: 40px 100px;
 }
 
 .page3_text {

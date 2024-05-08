@@ -1,5 +1,7 @@
 .sliding_img {
     float: left;
+    display: flex;
+    flex-direction: column;
     padding: 200px 0px 0px 0px;
 }
 .img {
@@ -18,15 +20,28 @@
     filter: blur(0);
 }
 .main_page {
+    max-width: 1800px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
 .main_info {
     margin: 0 auto;
-    padding: 170px 100px;
+    padding: 170px 40px;
 }
 .slider_watch{
     margin: auto auto;
     display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 1260px) {
+    .main_info {
+        
+    }
+}
+@media (max-width: 640px) {
+    .sliding_img {
+        flex-direction: row;
+        padding:  0px 30%;
+    }
 }
