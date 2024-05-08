@@ -22,7 +22,7 @@
     width: 30px;
     height: 30px;
     fill: #ff0033;
-    transition: 0.5s ease;
+    transition: all 0.5s ease-in-out;
 }
 .svg_logo {
     float: left;

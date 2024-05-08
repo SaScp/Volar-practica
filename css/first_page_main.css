@@ -14,7 +14,7 @@
     background-color: white;
     border-radius: 52px;
     border: grey;
-    transition: 0.5s ease;
+    transition: all 0.5s ease-in-out;
     filter: blur(0);
 }
 .main_page {
