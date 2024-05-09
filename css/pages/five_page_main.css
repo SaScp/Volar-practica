@@ -1,0 +1,33 @@
+.page5_windows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.window_1 {
+    display: flex;
+    flex-direction: row;
+    background-image: url("/img/background/bac4_1.svg");
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    margin-right: 30px;
+    margin-left: 100px;
+    height: 339px;
+    width: 890px;
+} 
+.window_2 {
+    display: flex;
+    flex-direction: row;
+    background-image: url("/img/background/bac4_1.svg");
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    height: 339px;
+    width: 430px; 
+} 
+.window_1 img {
+    padding-left: 20px;
+}
+.page5_info {
+    padding: 90px 150px 90px 50px;
+}

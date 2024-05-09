@@ -1,0 +1,31 @@
+.third_background {
+    display: flex;
+    
+}
+
+.galochka_items {
+    display: flex;
+}
+
+.galochka_item {
+    display: flex;
+    padding: 7px;
+    font-size: calc(10px + 0.42vw);
+}
+
+.main_page3_page {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1800px;
+}
+.page3_main_info {
+    margin: 0 auto;
+    padding: 170px 10px;
+}
+
+._watch {
+    margin: 0 auto;
+    padding: 40px 50px;
+}
+

@@ -99,34 +99,58 @@
     font-size: 16px;
     color: #2c2c2c;
 }
+
 .service-feature-center-description {
     color: #4b4b4b;
     font: 300 16px Poppins, sans-serif;
     margin: 16px;
-  }
+}
 
-  @media (max-width: 991px) {
+@media (max-width: 991px) {
     .service-feature-center-description {
-      max-width: 100%;
+        max-width: 100%;
     }
-  }
-  .service-feature-item-right-description {
+}
+
+.service-feature-item-right-description {
     color: #4b4b4b;
     align-self: start;
     margin-top: 23px;
     font: 300 16px Poppins, sans-serif;
-  }
-  .service-feature-item-title {
+}
+
+.service-feature-item-title {
     font-family: Montserrat, sans-serif;
     text-transform: capitalize;
     align-self: end;
-  }
+}
 
-  .service-feature-item-description {
+.service-feature-item-description {
     color: #4b4b4b;
     margin-top: 23px;
     font: 300 16px Poppins, sans-serif;
-  }
+}
+
+.page3_text {
+    font: 300 16px Poppins, sans-serif;
+    white-space: pre-line;
+    color: #4B4B4B;
+}
+.page5_info p {
+    font-size: calc(8px + 0.42vw);
+    font-family: var(--font-family);
+    white-space: pre-line;
+    color: #4B4B4B;
+}
+
+@media (max-width: 1259px) {
+    .page3_text {
+        font: 300 10px Poppins, sans-serif;
+        white-space: pre-line;
+        color: #4B4B4B;
+    }
+}
+
 :root {
     --font-family: "Montserrat", sans-serif;
     --second-family: "Poppins", sans-serif;

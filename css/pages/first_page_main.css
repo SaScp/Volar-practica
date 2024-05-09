@@ -1,8 +1,9 @@
 .sliding_img {
     float: left;
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
-    padding: 200px 0px 0px 0px;
+    padding: 200px 0px 0px 50px;
 }
 .img {
     padding: 6px 6px 6px 6px;
