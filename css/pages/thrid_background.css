@@ -9,6 +9,7 @@
 
 .galochka_item {
     display: flex;
+    transition: 0.6 all ease;
     padding: 7px;
     font-size: calc(10px + 0.42vw);
 }

@@ -19,40 +19,84 @@
     --second-family: "Poppins", sans-serif;
 }
 
+
+
+/*
 .contact-us-button {
+    
     font-size: calc(4px + 0.42vw);
     font-family: var(--font-family);
-    background-color: #ff4d4d; /* Красный цвет */
-    color: #fff; /* Белый цвет */
-    padding: 10px 20px; /* Отступ внутри кнопки */
-    border: none; /* Убрать границу */
-    border-radius: 8px; /* Скругленные углы */
-    cursor: pointer; /* Указать курсор */
+    background-color: #ff4d4d; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
     margin: 0 auto;
 }
+*/
 
+.contact-us-button {
+    padding: 12px 24px;
+    background-color: white;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-us-button span {
+    color: black;
+    position: relative;
+    z-index: 1;
+    transition: color 0.6s cubic-bezier(0.53, 0.21, 0, 1);
+}
+
+.contact-us-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-radius: 6px;
+    transform: translate(-100%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: red; /*hsl(244, 63%, 69%);*/
+    transition: transform 0.6s cubic-bezier(0.53, 0.21, 0, 1);
+}
+
+.contact-us-button:hover span {
+    color: white;
+}
+
+.contact-us-button:hover::before {
+    transform: translate(0, -50%);
+}
+
+
+/*
 .contact-us-button:hover {
     transition: 0.5s ease;
     font-size: calc(8px + 0.42vw);
     width: 120px;
     height: 45px;
-    background-color: #d93939; /* Темно-красный цвет при наведении */
+    background-color: #d93939; 
 }
 @media (max-width: 1243px) {
     .contact-us-button {
         font-size: calc(8px + 0.42vw);
         font-family: var(--font-family);
-        background-color: #ff4d4d; /* Красный цвет */
-        color: #fff; /* Белый цвет */
-        padding: 10px 20px; /* Отступ внутри кнопки */
-        border: none; /* Убрать границу */
-        border-radius: 8px; /* Скругленные углы */
-        cursor: pointer; /* Указать курсор */
+        background-color: #ff4d4d; 
+        color: #fff;
+        padding: 10px 20px; 
+        border: none; 
+        border-radius: 8px; 
+        cursor: pointer;
         margin: -3px;
         width: 120px;
         height: 45px;
     }
 }
+*/
 body{
     display: flex;
     flex-direction: column;

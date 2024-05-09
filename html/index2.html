@@ -4,57 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>😞</title>
-    <link rel="stylesheet" href="/css/fout_page_main.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/svg_style.css">
+    <link rel="stylesheet" href="/css/pruduct_style.css">
+    <link rel="stylesheet" href="/css/pages/first_page_main.css">
+    <link rel="stylesheet" href="/css/pages/second_page_main.css">
+    <link rel="stylesheet" href="/css/text_style.css">
+    <link rel="stylesheet" href="/css/pages/thrid_background.css">
+    <link rel="stylesheet" href="/css/pages/four_page_main.css">
+    <link rel="stylesheet" href="/css/pages/five_page_main.css">
+    <
 </head>
 <body>
-    <section class="service-feature">
-        <h2 class="service-feature-title">Our Service Feature</h2>
-        <div class="service-feature-content">
-          <div class="service-feature-row">
-            <div class="service-feature-column">
-              <div class="service-feature-item">
-                <h3 class="service-feature-item-title">Leather Strap</h3>
-                <p class="service-feature-item-description">
-                  A leather strap is a popular and stylish option for a watch band. Leather straps are comfortable to wear, durable, and can come in a range of colors and finishes.
-                </p>
-                <div class="service-feature-item-right">
-                  <h3 class="service-feature-item-right-title">LCD Waterproof</h3>
-                  <p class="service-feature-item-right-description">
-                    An LCD waterproof watch is a timepiece that has a liquid crystal display (LCD) and is designed to be water-resistant.
-                  </p>
-                  <h3 class="service-feature-item-bottom">Creative Design</h3>
+  <div class="main_background">
+    <section class="main_page">
+        <div class="main_info">
+            <div class="info_containt">
+                <p>smart watch</p>
+                <h1>This will change your
+                    life forever</h1>
+                <a>"Revolutionize Your Life with the Ultimate Smartwatch"</a>
+                <h3>$125.00</h3>
+                <button class="contact-us-button" onclick="goToLinkNotFound()">
+                    <span>
+                        Buy Now
+                    </span>
+                </button>
+            </div>
+            <div class="sliding_items">
+                <div class="product">
+                    <img class="image_item" src="/img/log2.svg">
+                    <div class="hidden-text">
+                        <p>Apple Watch SE</p>
+                        <span>$120.00</span>
+                        <img src="/img/star/star1.svg">
+                    </div>
                 </div>
-                <p class="service-feature-item-bottom-description">
-                  There are countless creative designs for watches, ranging from minimalistic and sleek to bold and colorful.
-                </p>
-              </div>
+                <div class="product">
+                    <img src="/img/log3.svg">
+                </div>
+                <div class="product">
+                    <img src="/img/log4.svg">
+                </div>
             </div>
-            <div class="service-feature-column-center">
-              <div class="service-feature-center-content">
-                <p class="service-feature-center-description">
-                  Watch companies now focusing more on trendy watches which targets the youngster who always.
-                </p>
-                <img src="https://cdn.builder.io/api/v1/image/assets%2F153a8bc2c6764c46a1e200621e63e513%2F0965862b015b4b11a747da2abf2f1e68" alt="" class="service-feature-image" />
-              </div>
-            </div>
-            <div class="service-feature-column-right">
-              <div class="service-feature-item-right-content">
-                <h3 class="service-feature-item-right-title">Lock System</h3>
-                <p class="service-feature-item-right-description">
-                  A lock system for a watch is a mechanism that prevents unauthorized access to the watch and its functions.
-                </p>
-                <h3 class="service-feature-item-right-middle">Heart Button</h3>
-                <p class="service-feature-item-right-middle-description">
-                  A heart button for a watch could refer to a button that has a heart symbol on it, or a button that is specifically designed to monitor the wearer's heart rate.
-                </p>
-                <h3 class="service-feature-item-right-bottom">Lock Hole System</h3>
-                <p class="service-feature-item-right-bottom-description">
-                  A lock hole system for a watch is a mechanism that allows the watch to be securely attached to a strap or bracelet.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
+        <div class="slider_watch">
+            <div>
+                <img src="/img/big_log.svg" class="watch_img">
+            </div>
+            <div class="sliding_img">
+                <button class="button_slider" id="1" onmouseenter="setSliderImg(this)">
+                    <img src="/img/mini_watch_1.svg">
+                </button>
+                <button class="button_slider" id="2" onmouseenter="setSliderImg(this)">
+                    <img src="/img/mini_watch_2.svg">
+                </button>
+                <button class="button_slider" id="3" onmouseenter="setSliderImg(this)">
+                    <img src="/img/mini_watch_3.svg">
+                </button>
+            </div>
+        </div>
+    </section>
+</div>
+<script src="/js/main.js"></script>
 </body>
 </html>
