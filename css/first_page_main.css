@@ -39,7 +39,7 @@
         
     }
 }
-@media (max-width: 640px) {
+@media (max-width: 724px) {
     .sliding_img {
         flex-direction: row;
         padding:  0px 30%;
