@@ -1,40 +1,21 @@
 .header_container {
-    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    max-width: 1500px;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 .svg_search_and_contact {
-    float: right;
-    padding: 20px;
-    display: block;
-    width: auto;
+    display: flex;
+    margin: 0 auto;
 }
-
+.header_img {
+    margin: 0 auto;
+}
 :root {
     --font-family: "Montserrat", sans-serif;
     --second-family: "Poppins", sans-serif;
 }
-
-
-
-/*
-.contact-us-button {
-    
-    font-size: calc(4px + 0.42vw);
-    font-family: var(--font-family);
-    background-color: #ff4d4d; 
-    color: #fff; 
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 8px; 
-    cursor: pointer; 
-    margin: 0 auto;
-}
-*/
 
 .contact-us-button {
     padding: 12px 24px;

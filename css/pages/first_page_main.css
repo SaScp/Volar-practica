@@ -1,5 +1,5 @@
 .sliding_img {
-    float: left;
+
     display: flex;
     margin: 0 auto;
     flex-direction: column;
@@ -35,11 +35,6 @@
     margin: auto auto;
     display: flex;
     flex-wrap: wrap;
-}
-@media (max-width: 1260px) {
-    .main_info {
-        
-    }
 }
 @media (max-width: 760px) {
     .sliding_img {

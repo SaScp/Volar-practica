@@ -9,9 +9,8 @@
 
 .galochka_item {
     display: flex;
-    transition: 0.6 all ease;
     padding: 7px;
-    font-size: 16;
+    font-size: 16px;
 }
 
 .main_page3_page {
@@ -22,7 +21,7 @@
 }
 .page3_main_info {
     margin: 0 auto;
-    padding: 170px 10px;
+    padding: 170px 0px;
     font: 300 16px Poppins, sans-serif;
 }
 
