@@ -1,43 +1,84 @@
 .page5_windows {
+    padding-top: 80px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
 }
+.page5_main_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    font: 300 16px Montserrat, sans-serif;
+    text-align: center;
+}
+.page5_main_info p {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    color: #4b4b4b;
+    font: 300 16px Poppins, sans-serif;
+    text-align: center;
+    white-space: pre-line;
+}
+
 .window_1 {
+    display: flex;
     background-image: url("/img/background/bac4_1.svg");
     background-position-y: 50px;
     background-repeat: no-repeat;
-    border-radius: 50px;   
-    height: 367px;
-    width: 890px;
+    border-radius: 50px;
+    max-height: 387px;
+    max-width: 890px;
     padding-right: 10px;
-} 
-.inner_window_1 {
+}
+.page5_info {
     display: flex;
-    flex-direction: row;
-    height: 387px;
-    width: 890px;
+    flex-direction: column;
+    margin: 100px 80px 50px 40px;
+}
+.page5_info p {
+    margin: 0 auto;
+    font: 300 16px Poppins, sans-serif;
+    color: #4b4b4b;
+}
+.page5_info h2 {
+    margin: 0 auto 15px 0;
+    text-align: right;
 }
 .window_2 {
     display: flex;
-    flex-direction: row;
     background-image: url("/img/background/bac4_2.svg");
     background-repeat: no-repeat;
     background-position-y: 50px;
     border-radius: 50px;
-    height: 367px;
-    width: 430px; 
-} 
-.inner_window_2 {
+    height: 387px;
+    max-width: 430px;
+    
+}
+.page5_info_2 {
     display: flex;
-    flex-direction: row;
-    height: 367px;
-    width: 430px;
+    flex-direction: column;
+    margin: 100px 40px 50px 180px;
 }
-.window_1 img {
-    padding-left: 20px;
+.page5_info_2 p {
+    margin: 0 auto;
+    font: 300 16px Poppins, sans-serif;
+    color: #4b4b4b;
 }
-.page5_info {
-    padding: 90px 150px 90px 50px;
+.page5_info_2 h2 {
+    margin: 0 auto 15px 0;
+    text-align: right;
 }
+
+.inner_window_1 {
+    display: flex;
+    margin: 0 auto;
+}
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Poppins", sans-serif;
+}
+
+
+

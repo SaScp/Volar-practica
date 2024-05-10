@@ -91,6 +91,7 @@
     font-family: var(--font-family);
     white-space: pre-line;
     color: #4B4B4B;
+    font-size: 16px;
 }
 
 .galochka_item {
@@ -136,16 +137,11 @@
     white-space: pre-line;
     color: #4B4B4B;
 }
-.page5_info p {
-    font-size: calc(8px + 0.42vw);
-    font-family: var(--font-family);
-    white-space: pre-line;
-    color: #4B4B4B;
-}
+
 
 @media (max-width: 1259px) {
     .page3_text {
-        font: 300 10px Poppins, sans-serif;
+        font: 300 16px Poppins, sans-serif;
         white-space: pre-line;
         color: #4B4B4B;
     }
