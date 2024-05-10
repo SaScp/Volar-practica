@@ -5,10 +5,7 @@ function goToLinkNotFound() {
     window.location.href ="/html/404.html";
 }
 function setSliderImg(obj) {
-    const images = document.querySelectorAll('.watch_img');
-    images.forEach((image) => {
-        console.log(image);
+    const image = document.getElementById('slider_watch_main_img');
         image.setAttribute('src', "/img/big_logo" + obj.id + ".svg");
-      });
       
 }
