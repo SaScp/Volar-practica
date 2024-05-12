@@ -13,6 +13,13 @@
     <link rel="stylesheet" href="/css/pages/thrid_background.css">
     <link rel="stylesheet" href="/css/pages/four_page_main.css">
     <link rel="stylesheet" href="/css/pages/five_page_main.css">
+    <link rel="stylesheet" href="/css/pages/six_page_main.css">
+    <link rel="stylesheet" href="/css/pages/seven_page_main.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="/css/swiper.css">
     <link rel="stylesheet" href="/css/adaptive.css">
 </head>
 <body>
@@ -23,46 +30,46 @@
         <div class="header_container">
             <div class="header_img">
                 <svg width="142" height="24" viewBox="0 0 142 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                class="svg_logo">
-               <path d="M7.72617 20.8184C6.58815 19.1113 5.45013 16.8724 4.31211 14.1016L0.230078 3.5625C0.10638 3.29036 0.0321615 2.99349 0.00742188 2.67188C-0.0420573 1.97917 0.155859 1.38542 0.601172 0.890625C1.07122 0.395833 1.66497 0.148438 2.38242 0.148438C3.14935 0.148438 3.71836 0.321615 4.08945 0.667969C4.48529 0.989583 4.8069 1.41016 5.0543 1.92969L8.57969 11.5781C8.97552 12.5924 9.35898 13.5573 9.73008 14.4727C10.1259 15.3633 10.5589 16.1797 11.0289 16.9219C11.499 17.6641 12.0309 18.0599 12.6246 18.1094C13.1936 18.0599 13.7008 17.6641 14.1461 16.9219C14.6409 16.1797 15.0738 15.3633 15.4449 14.4727C15.8408 13.5573 16.2366 12.5924 16.6324 11.5781L20.0836 1.92969C20.331 1.41016 20.6402 0.989583 21.0113 0.667969C21.4072 0.321615 22.0133 0.148438 22.8297 0.148438C23.5471 0.148438 24.1285 0.395833 24.5738 0.890625C25.0439 1.38542 25.2542 1.97917 25.2047 2.67188C25.1799 2.99349 25.1057 3.29036 24.982 3.5625L20.9 14.1016C19.762 16.9219 18.624 19.1732 17.4859 20.8555C16.3727 22.513 14.7522 23.3542 12.6246 23.3789C10.4723 23.3542 8.83945 22.5007 7.72617 20.8184Z"
-                     fill="black"/>
-               <path d="M48.9547 0.890625C50.2164 0.915365 51.3421 1.3112 52.3316 2.07812C53.3212 2.84505 54.1129 3.76042 54.7066 4.82422C55.3251 5.88802 55.7828 7.01367 56.0797 8.20117C56.3766 9.38867 56.525 10.6009 56.525 11.8379C56.525 13.4707 56.2652 15.0788 55.7457 16.6621C55.2509 18.2207 54.4221 19.6061 53.2594 20.8184C52.1214 22.0306 50.6865 22.6862 48.9547 22.7852H36.0035C34.2717 22.7109 32.8245 22.0677 31.6617 20.8555C30.499 19.6432 29.6702 18.2454 29.1754 16.6621C28.7053 15.0788 28.4703 13.4707 28.4703 11.8379C28.4703 10.2051 28.7177 8.60938 29.2125 7.05078C29.7073 5.46745 30.5237 4.06966 31.6617 2.85742C32.8245 1.62044 34.2717 0.964844 36.0035 0.890625H36.7086H48.2496H48.9547ZM47.693 17.8125C48.6331 17.763 49.4124 17.4167 50.0309 16.7734C50.6741 16.1055 51.1318 15.3385 51.4039 14.4727C51.676 13.6068 51.8121 12.7285 51.8121 11.8379C51.8121 10.9473 51.6637 10.0814 51.3668 9.24023C51.0947 8.37435 50.6493 7.60742 50.0309 6.93945C49.4124 6.27148 48.6331 5.91276 47.693 5.86328H37.1539C36.2138 5.91276 35.4345 6.27148 34.816 6.93945C34.1975 7.60742 33.7398 8.37435 33.443 9.24023C33.1708 10.0814 33.0348 10.9473 33.0348 11.8379C33.0348 12.7285 33.1708 13.6068 33.443 14.4727C33.7151 15.3385 34.1604 16.1055 34.7789 16.7734C35.4221 17.4167 36.2138 17.763 37.1539 17.8125H47.693Z"
-                     fill="black"/>
-               <path d="M63.0563 0.296875C63.749 0.296875 64.3427 0.531901 64.8375 1.00195C65.3323 1.44727 65.5921 2.01628 65.6168 2.70898V11.6523C65.5921 12.6667 65.6539 13.6068 65.8023 14.4727C65.9755 15.3138 66.3714 16.0684 66.9898 16.7363C67.6083 17.4043 68.3876 17.763 69.3277 17.8125H81.2027C81.8954 17.8372 82.4645 18.097 82.9098 18.5918C83.3798 19.0866 83.6148 19.6803 83.6148 20.373C83.5901 21.041 83.3427 21.61 82.8727 22.0801C82.4273 22.5254 81.8707 22.7604 81.2027 22.7852H68.066C66.3342 22.6862 64.8994 22.1048 63.7613 21.041C62.648 19.9525 61.844 18.6289 61.3492 17.0703C60.8792 15.5117 60.6318 13.8542 60.607 12.0977V2.70898C60.6318 2.04102 60.8792 1.48438 61.3492 1.03906C61.8193 0.56901 62.3883 0.321615 63.0563 0.296875Z"
-                     fill="black"/>
-               <path d="M95.4898 17.0332C95.4898 16.3405 95.7249 15.7591 96.1949 15.2891C96.6897 14.7943 97.2835 14.5469 97.9762 14.5469H103.654L102.689 11.8008C102.293 10.7865 101.897 9.83398 101.502 8.94336C101.13 8.028 100.698 7.19922 100.203 6.45703C99.7574 5.71484 99.2503 5.31901 98.6813 5.26953C98.0875 5.31901 97.5556 5.71484 97.0855 6.45703C96.6155 7.19922 96.1826 8.028 95.7867 8.94336C95.4156 9.83398 95.0322 10.7865 94.6363 11.8008L91.1109 21.4492C90.8635 21.9688 90.5419 22.4017 90.1461 22.748C89.775 23.0697 89.206 23.2305 88.4391 23.2305C87.7216 23.2305 87.1279 22.9831 86.6578 22.4883C86.2125 21.9935 86.0146 21.3997 86.0641 20.707C86.0888 20.3854 86.163 20.0885 86.2867 19.8164L90.3688 9.27734C91.5068 6.50651 92.6448 4.26758 93.7828 2.56055C94.8961 0.878255 96.5289 0.0247396 98.6813 0C100.809 0.0247396 102.429 0.878255 103.543 2.56055C104.681 4.2181 105.819 6.45703 106.957 9.27734L111.039 19.8164C111.162 20.0885 111.237 20.3854 111.261 20.707C111.311 21.3997 111.101 21.9935 110.63 22.4883C110.185 22.9831 109.604 23.2305 108.886 23.2305C108.07 23.2305 107.464 23.0697 107.068 22.748C106.697 22.4017 106.388 21.9688 106.14 21.4492L105.435 19.5195H97.9762C97.2835 19.5195 96.7021 19.2721 96.232 18.7773C95.7372 18.3073 95.4898 17.7259 95.4898 17.0332Z"
-                     fill="black"/>
-               <path d="M119.982 20.8926C119.834 22.377 119.017 23.181 117.533 23.3047C116.84 23.3047 116.234 23.082 115.714 22.6367C115.22 22.1667 114.972 21.5853 114.972 20.8926V3.30273C114.997 2.61003 115.257 2.04102 115.752 1.5957C116.246 1.12565 116.84 0.890625 117.533 0.890625H119.351H123.916H133.082C133.23 0.890625 133.379 0.902995 133.527 0.927734H133.75C135.481 0.977214 136.904 1.37305 138.017 2.11523C139.13 2.85742 139.934 3.71094 140.429 4.67578C140.924 5.61589 141.171 6.56836 141.171 7.5332C141.171 8.52279 140.924 9.5 140.429 10.4648C139.959 11.4049 139.155 12.2461 138.017 12.9883C136.904 13.7305 135.481 14.1263 133.75 14.1758H127.218C127.416 15.4128 127.824 16.3281 128.443 16.9219C129.037 17.5156 129.791 17.8125 130.707 17.8125H138.722C139.415 17.8372 139.984 18.097 140.429 18.5918C140.899 19.0866 141.134 19.6803 141.134 20.373C141.11 21.041 140.862 21.61 140.392 22.0801C139.947 22.5254 139.39 22.7604 138.722 22.7852H130.039C128.208 22.8099 126.55 22.0924 125.066 20.6328C123.582 19.1732 122.679 17.4414 122.357 15.4375C121.912 13.2109 121.689 11.9616 121.689 11.6895C121.689 10.9967 121.924 10.4154 122.394 9.94531C122.889 9.45052 123.483 9.20312 124.175 9.20312H133.972C134.442 9.17839 134.826 9.07943 135.123 8.90625C135.444 8.70833 135.679 8.49805 135.828 8.27539C135.976 8.028 136.05 7.7806 136.05 7.5332C136.05 7.28581 135.976 7.05078 135.828 6.82812C135.679 6.58073 135.444 6.37044 135.123 6.19727C134.826 5.99935 134.442 5.88802 133.972 5.86328H123.916H120.947C120.304 5.88802 119.982 6.20964 119.982 6.82812V20.8926Z"
-                     fill="black"/>
-               <path d="M63.0563 0.296875C63.749 0.296875 64.3427 0.531901 64.8375 1.00195C65.3323 1.44727 65.5921 2.01628 65.6168 2.70898V11.6523C65.5921 12.6667 65.6539 13.6068 65.8023 14.4727C65.9755 15.3138 66.3714 16.0684 66.9898 16.7363C67.6083 17.4043 68.3876 17.763 69.3277 17.8125H81.2027C81.8954 17.8372 82.4645 18.097 82.9098 18.5918C83.3798 19.0866 83.6148 19.6803 83.6148 20.373C83.5901 21.041 83.3427 21.61 82.8727 22.0801C82.4273 22.5254 81.8707 22.7604 81.2027 22.7852H68.066C66.3342 22.6862 64.8994 22.1048 63.7613 21.041C62.648 19.9525 61.844 18.6289 61.3492 17.0703C60.8792 15.5117 60.6318 13.8542 60.607 12.0977V2.70898C60.6318 2.04102 60.8792 1.48438 61.3492 1.03906C61.8193 0.56901 62.3883 0.321615 63.0563 0.296875Z"
-                     fill="#E34C48"/>
-           </svg>
+                     class="svg_logo">
+                    <path d="M7.72617 20.8184C6.58815 19.1113 5.45013 16.8724 4.31211 14.1016L0.230078 3.5625C0.10638 3.29036 0.0321615 2.99349 0.00742188 2.67188C-0.0420573 1.97917 0.155859 1.38542 0.601172 0.890625C1.07122 0.395833 1.66497 0.148438 2.38242 0.148438C3.14935 0.148438 3.71836 0.321615 4.08945 0.667969C4.48529 0.989583 4.8069 1.41016 5.0543 1.92969L8.57969 11.5781C8.97552 12.5924 9.35898 13.5573 9.73008 14.4727C10.1259 15.3633 10.5589 16.1797 11.0289 16.9219C11.499 17.6641 12.0309 18.0599 12.6246 18.1094C13.1936 18.0599 13.7008 17.6641 14.1461 16.9219C14.6409 16.1797 15.0738 15.3633 15.4449 14.4727C15.8408 13.5573 16.2366 12.5924 16.6324 11.5781L20.0836 1.92969C20.331 1.41016 20.6402 0.989583 21.0113 0.667969C21.4072 0.321615 22.0133 0.148438 22.8297 0.148438C23.5471 0.148438 24.1285 0.395833 24.5738 0.890625C25.0439 1.38542 25.2542 1.97917 25.2047 2.67188C25.1799 2.99349 25.1057 3.29036 24.982 3.5625L20.9 14.1016C19.762 16.9219 18.624 19.1732 17.4859 20.8555C16.3727 22.513 14.7522 23.3542 12.6246 23.3789C10.4723 23.3542 8.83945 22.5007 7.72617 20.8184Z"
+                          fill="black"/>
+                    <path d="M48.9547 0.890625C50.2164 0.915365 51.3421 1.3112 52.3316 2.07812C53.3212 2.84505 54.1129 3.76042 54.7066 4.82422C55.3251 5.88802 55.7828 7.01367 56.0797 8.20117C56.3766 9.38867 56.525 10.6009 56.525 11.8379C56.525 13.4707 56.2652 15.0788 55.7457 16.6621C55.2509 18.2207 54.4221 19.6061 53.2594 20.8184C52.1214 22.0306 50.6865 22.6862 48.9547 22.7852H36.0035C34.2717 22.7109 32.8245 22.0677 31.6617 20.8555C30.499 19.6432 29.6702 18.2454 29.1754 16.6621C28.7053 15.0788 28.4703 13.4707 28.4703 11.8379C28.4703 10.2051 28.7177 8.60938 29.2125 7.05078C29.7073 5.46745 30.5237 4.06966 31.6617 2.85742C32.8245 1.62044 34.2717 0.964844 36.0035 0.890625H36.7086H48.2496H48.9547ZM47.693 17.8125C48.6331 17.763 49.4124 17.4167 50.0309 16.7734C50.6741 16.1055 51.1318 15.3385 51.4039 14.4727C51.676 13.6068 51.8121 12.7285 51.8121 11.8379C51.8121 10.9473 51.6637 10.0814 51.3668 9.24023C51.0947 8.37435 50.6493 7.60742 50.0309 6.93945C49.4124 6.27148 48.6331 5.91276 47.693 5.86328H37.1539C36.2138 5.91276 35.4345 6.27148 34.816 6.93945C34.1975 7.60742 33.7398 8.37435 33.443 9.24023C33.1708 10.0814 33.0348 10.9473 33.0348 11.8379C33.0348 12.7285 33.1708 13.6068 33.443 14.4727C33.7151 15.3385 34.1604 16.1055 34.7789 16.7734C35.4221 17.4167 36.2138 17.763 37.1539 17.8125H47.693Z"
+                          fill="black"/>
+                    <path d="M63.0563 0.296875C63.749 0.296875 64.3427 0.531901 64.8375 1.00195C65.3323 1.44727 65.5921 2.01628 65.6168 2.70898V11.6523C65.5921 12.6667 65.6539 13.6068 65.8023 14.4727C65.9755 15.3138 66.3714 16.0684 66.9898 16.7363C67.6083 17.4043 68.3876 17.763 69.3277 17.8125H81.2027C81.8954 17.8372 82.4645 18.097 82.9098 18.5918C83.3798 19.0866 83.6148 19.6803 83.6148 20.373C83.5901 21.041 83.3427 21.61 82.8727 22.0801C82.4273 22.5254 81.8707 22.7604 81.2027 22.7852H68.066C66.3342 22.6862 64.8994 22.1048 63.7613 21.041C62.648 19.9525 61.844 18.6289 61.3492 17.0703C60.8792 15.5117 60.6318 13.8542 60.607 12.0977V2.70898C60.6318 2.04102 60.8792 1.48438 61.3492 1.03906C61.8193 0.56901 62.3883 0.321615 63.0563 0.296875Z"
+                          fill="black"/>
+                    <path d="M95.4898 17.0332C95.4898 16.3405 95.7249 15.7591 96.1949 15.2891C96.6897 14.7943 97.2835 14.5469 97.9762 14.5469H103.654L102.689 11.8008C102.293 10.7865 101.897 9.83398 101.502 8.94336C101.13 8.028 100.698 7.19922 100.203 6.45703C99.7574 5.71484 99.2503 5.31901 98.6813 5.26953C98.0875 5.31901 97.5556 5.71484 97.0855 6.45703C96.6155 7.19922 96.1826 8.028 95.7867 8.94336C95.4156 9.83398 95.0322 10.7865 94.6363 11.8008L91.1109 21.4492C90.8635 21.9688 90.5419 22.4017 90.1461 22.748C89.775 23.0697 89.206 23.2305 88.4391 23.2305C87.7216 23.2305 87.1279 22.9831 86.6578 22.4883C86.2125 21.9935 86.0146 21.3997 86.0641 20.707C86.0888 20.3854 86.163 20.0885 86.2867 19.8164L90.3688 9.27734C91.5068 6.50651 92.6448 4.26758 93.7828 2.56055C94.8961 0.878255 96.5289 0.0247396 98.6813 0C100.809 0.0247396 102.429 0.878255 103.543 2.56055C104.681 4.2181 105.819 6.45703 106.957 9.27734L111.039 19.8164C111.162 20.0885 111.237 20.3854 111.261 20.707C111.311 21.3997 111.101 21.9935 110.63 22.4883C110.185 22.9831 109.604 23.2305 108.886 23.2305C108.07 23.2305 107.464 23.0697 107.068 22.748C106.697 22.4017 106.388 21.9688 106.14 21.4492L105.435 19.5195H97.9762C97.2835 19.5195 96.7021 19.2721 96.232 18.7773C95.7372 18.3073 95.4898 17.7259 95.4898 17.0332Z"
+                          fill="black"/>
+                    <path d="M119.982 20.8926C119.834 22.377 119.017 23.181 117.533 23.3047C116.84 23.3047 116.234 23.082 115.714 22.6367C115.22 22.1667 114.972 21.5853 114.972 20.8926V3.30273C114.997 2.61003 115.257 2.04102 115.752 1.5957C116.246 1.12565 116.84 0.890625 117.533 0.890625H119.351H123.916H133.082C133.23 0.890625 133.379 0.902995 133.527 0.927734H133.75C135.481 0.977214 136.904 1.37305 138.017 2.11523C139.13 2.85742 139.934 3.71094 140.429 4.67578C140.924 5.61589 141.171 6.56836 141.171 7.5332C141.171 8.52279 140.924 9.5 140.429 10.4648C139.959 11.4049 139.155 12.2461 138.017 12.9883C136.904 13.7305 135.481 14.1263 133.75 14.1758H127.218C127.416 15.4128 127.824 16.3281 128.443 16.9219C129.037 17.5156 129.791 17.8125 130.707 17.8125H138.722C139.415 17.8372 139.984 18.097 140.429 18.5918C140.899 19.0866 141.134 19.6803 141.134 20.373C141.11 21.041 140.862 21.61 140.392 22.0801C139.947 22.5254 139.39 22.7604 138.722 22.7852H130.039C128.208 22.8099 126.55 22.0924 125.066 20.6328C123.582 19.1732 122.679 17.4414 122.357 15.4375C121.912 13.2109 121.689 11.9616 121.689 11.6895C121.689 10.9967 121.924 10.4154 122.394 9.94531C122.889 9.45052 123.483 9.20312 124.175 9.20312H133.972C134.442 9.17839 134.826 9.07943 135.123 8.90625C135.444 8.70833 135.679 8.49805 135.828 8.27539C135.976 8.028 136.05 7.7806 136.05 7.5332C136.05 7.28581 135.976 7.05078 135.828 6.82812C135.679 6.58073 135.444 6.37044 135.123 6.19727C134.826 5.99935 134.442 5.88802 133.972 5.86328H123.916H120.947C120.304 5.88802 119.982 6.20964 119.982 6.82812V20.8926Z"
+                          fill="black"/>
+                    <path d="M63.0563 0.296875C63.749 0.296875 64.3427 0.531901 64.8375 1.00195C65.3323 1.44727 65.5921 2.01628 65.6168 2.70898V11.6523C65.5921 12.6667 65.6539 13.6068 65.8023 14.4727C65.9755 15.3138 66.3714 16.0684 66.9898 16.7363C67.6083 17.4043 68.3876 17.763 69.3277 17.8125H81.2027C81.8954 17.8372 82.4645 18.097 82.9098 18.5918C83.3798 19.0866 83.6148 19.6803 83.6148 20.373C83.5901 21.041 83.3427 21.61 82.8727 22.0801C82.4273 22.5254 81.8707 22.7604 81.2027 22.7852H68.066C66.3342 22.6862 64.8994 22.1048 63.7613 21.041C62.648 19.9525 61.844 18.6289 61.3492 17.0703C60.8792 15.5117 60.6318 13.8542 60.607 12.0977V2.70898C60.6318 2.04102 60.8792 1.48438 61.3492 1.03906C61.8193 0.56901 62.3883 0.321615 63.0563 0.296875Z"
+                          fill="#E34C48"/>
+                </svg>
             </div>
-    
+
             <div class="svg_search_and_contact">
-                    <div>
-                        <button class="search_button">
-                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg" class="svg_search">
-                                <path d="M21.8679 20.9494L16.3939 15.2561C17.8013 13.5829 18.5725 11.4778 18.5725 9.28624C18.5725 4.16589 14.4066 0 9.28624 0C4.16589 0 0 4.16589 0 9.28624C0 14.4066 4.16589 18.5725 9.28624 18.5725C11.2085 18.5725 13.0403 17.9927 14.6064 16.8921L20.1221 22.6286C20.3526 22.868 20.6627 23 20.995 23C21.3095 23 21.6079 22.8801 21.8344 22.6621C22.3156 22.199 22.331 21.431 21.8679 20.9494ZM9.28624 2.4225C13.071 2.4225 16.15 5.50149 16.15 9.28624C16.15 13.071 13.071 16.15 9.28624 16.15C5.50149 16.15 2.4225 13.071 2.4225 9.28624C2.4225 5.50149 5.50149 2.4225 9.28624 2.4225Z"
-                                      fill="black"/>
-                            </svg>
-                        </button>
-    
-                    </div>
-                    <div>
-                        <svg width="1" height="30" viewBox="0 0 1 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <line x1="0.5" y1="-2.18557e-08" x2="0.500001" y2="30" stroke="#696942"
-                                  stroke-opacity="0.18"/>
+                <div>
+                    <button class="search_button">
+                        <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                             xmlns="http://www.w3.org/2000/svg" class="svg_search">
+                            <path d="M21.8679 20.9494L16.3939 15.2561C17.8013 13.5829 18.5725 11.4778 18.5725 9.28624C18.5725 4.16589 14.4066 0 9.28624 0C4.16589 0 0 4.16589 0 9.28624C0 14.4066 4.16589 18.5725 9.28624 18.5725C11.2085 18.5725 13.0403 17.9927 14.6064 16.8921L20.1221 22.6286C20.3526 22.868 20.6627 23 20.995 23C21.3095 23 21.6079 22.8801 21.8344 22.6621C22.3156 22.199 22.331 21.431 21.8679 20.9494ZM9.28624 2.4225C13.071 2.4225 16.15 5.50149 16.15 9.28624C16.15 13.071 13.071 16.15 9.28624 16.15C5.50149 16.15 2.4225 13.071 2.4225 9.28624C2.4225 5.50149 5.50149 2.4225 9.28624 2.4225Z"
+                                  fill="black"/>
                         </svg>
-                    </div>
-                    <div>
-                        <button class="contact-us-button" onclick="goToLink()">
+                    </button>
+
+                </div>
+                <div>
+                    <svg width="1" height="30" viewBox="0 0 1 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="0.5" y1="-2.18557e-08" x2="0.500001" y2="30" stroke="#696942"
+                              stroke-opacity="0.18"/>
+                    </svg>
+                </div>
+                <div>
+                    <button class="contact-us-button" onclick="goToLink()">
                             <span>
                                 Contact Us
                             </span>
-                        </button>
-                    </div>
+                    </button>
+                </div>
             </div>
         </div>
     </header>
@@ -121,8 +128,8 @@
             Your life perfect. </h1>
         <p class="second_text">It's important to have a clear idea of what you want to achieve in your daily activities.
             setting clear goals will help you prioritize your time and movements.</p>
-        </div>
-        <div class="page2_items">
+    </div>
+    <div class="page2_items">
         <div class="page2_item">
             <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="70" height="70" rx="35" fill="#E34C48" fill-opacity="0.1"/>
@@ -145,8 +152,8 @@
                 <path d="M34.9999 50.0003C33.9473 50.0057 32.9088 49.7588 31.9712 49.2804C31.0337 48.8019 30.2244 48.1058 29.6112 47.2503C24.8474 40.6791 22.4312 35.7391 22.4312 32.5666C22.4312 29.2331 23.7554 26.0362 26.1125 23.6791C28.4696 21.322 31.6665 19.9978 34.9999 19.9978C38.3333 19.9978 41.5303 21.322 43.8874 23.6791C46.2444 26.0362 47.5687 29.2331 47.5687 32.5666C47.5687 35.7391 45.1524 40.6791 40.3887 47.2503C39.7754 48.1058 38.9661 48.8019 38.0286 49.2804C37.091 49.7588 36.0525 50.0057 34.9999 50.0003ZM34.9999 22.7266C32.3904 22.7295 29.8887 23.7675 28.0435 25.6126C26.1983 27.4578 25.1604 29.9596 25.1574 32.5691C25.1574 35.0816 27.5237 39.7278 31.8187 45.6516C32.1833 46.1538 32.6616 46.5625 33.2145 46.8444C33.7675 47.1262 34.3793 47.2732 34.9999 47.2732C35.6205 47.2732 36.2323 47.1262 36.7853 46.8444C37.3382 46.5625 37.8165 46.1538 38.1812 45.6516C42.4762 39.7278 44.8424 35.0816 44.8424 32.5691C44.8394 29.9596 43.8015 27.4578 41.9563 25.6126C40.1111 23.7675 37.6094 22.7295 34.9999 22.7266Z"
                       fill="#E34C48"/>
             </svg>
-            <h2 >Speed & cadence monitor</h2>
-            <p >A speed and cadence monitor can be useful for tracking training progress and
+            <h2>Speed & cadence monitor</h2>
+            <p>A speed and cadence monitor can be useful for tracking training progress and
                 improving cycling performance.</p>
 
         </div>
@@ -158,8 +165,8 @@
                 <path d="M34.9999 50.0003C33.9473 50.0057 32.9088 49.7588 31.9712 49.2804C31.0337 48.8019 30.2244 48.1058 29.6112 47.2503C24.8474 40.6791 22.4312 35.7391 22.4312 32.5666C22.4312 29.2331 23.7554 26.0362 26.1125 23.6791C28.4696 21.322 31.6665 19.9978 34.9999 19.9978C38.3333 19.9978 41.5303 21.322 43.8874 23.6791C46.2444 26.0362 47.5687 29.2331 47.5687 32.5666C47.5687 35.7391 45.1524 40.6791 40.3887 47.2503C39.7754 48.1058 38.9661 48.8019 38.0286 49.2804C37.091 49.7588 36.0525 50.0057 34.9999 50.0003ZM34.9999 22.7266C32.3904 22.7295 29.8887 23.7675 28.0435 25.6126C26.1983 27.4578 25.1604 29.9596 25.1574 32.5691C25.1574 35.0816 27.5237 39.7278 31.8187 45.6516C32.1833 46.1538 32.6616 46.5625 33.2145 46.8444C33.7675 47.1262 34.3793 47.2732 34.9999 47.2732C35.6205 47.2732 36.2323 47.1262 36.7853 46.8444C37.3382 46.5625 37.8165 46.1538 38.1812 45.6516C42.4762 39.7278 44.8424 35.0816 44.8424 32.5691C44.8394 29.9596 43.8015 27.4578 41.9563 25.6126C40.1111 23.7675 37.6094 22.7295 34.9999 22.7266Z"
                       fill="#E34C48"/>
             </svg>
-            <h2 >Heart Rate Monitor</h2>
-            <p >A heart rate monitor is a device used to measure and display a person's heart
+            <h2>Heart Rate Monitor</h2>
+            <p>A heart rate monitor is a device used to measure and display a person's heart
                 rate in real-time.</p>
 
         </div>
@@ -197,163 +204,115 @@
                         <img src="/img/galochka.svg"/>
                         <a>Brand Reputation</a>
                     </div>
-                </div class="galochka_inner_item">
+                </div>
+                <div class="galochka_inner_item">
                     <div>
                         <div class="galochka_item">
                             <img src="/img/galochka.svg"/>
                             <a>Price</a>
                         </div>
                     </div>
-        
-                   
-    
+
+
+                </div>
             </div>
             <p class="page3_text">Overall, the best watch for your best time is one that suits your personal style,
                 meets your functional needs, and is built to last. Take the time to research different
                 options and choose a watch that you will love wearing for years to come.</p>
             <button class="contact-us-button" onclick="goToLinkNotFound()">
-                <span>
+                    <span>
                     Buy Now
-                </span>
+                    </span>
             </button>
         </div>
     </div>
 </div>
 
-
+</div>
 <div class="four_background">
-        <h2 class="service-feature-title">Our Service Feature</h2>
-        <div class="service-feature-content">
-            <div class="service-feature-row">
-                    <div class="service-feature-item">
-                        <div class="left_item">
-                            <h3>Leather Strap</h3>
-                            <p>
-                                A leather strap is a popular and stylish
-                                option for a watch band. Leather straps
-                                are comfortable to wear, durable, and 
-                                can come in a range of colors and 
-                                finishes.
-                            </p>
-                        </div>
-                        <div class="left_item">
-                            <h3>LCD Waterproof</h3>
-                            <p >
-                            An LCD waterproof watch is a 
-                            timepiece that has a liquid crystal 
-                            display (LCD) andis designed to be 
-                            water-resistant.
-                            </p>
-                        </div>
-                        <div class="left_item">
-                            <h3>Creative Design</h3>
-                            <p>
-                            There are countless creative designs 
-                            for watches, ranging from minimalistic 
-                            and sleek tobold and colorful.
-                        </p>
-                        </div>
-                    </div>
-                <div class="service-feature-column-center">
-                        <p class="service-feature-center-description">
-                            Watch companies now focusing more on trendy watches which targets the youngster who
-                            always.
-                        </p>
-                        <img src="/img/big_logo1.svg"
-                             alt="" class="watch_img"/>
+    <h2 class="service-feature-title">Our Service Feature</h2>
+    <div class="service-feature-content">
+        <div class="service-feature-row">
+            <div class="service-feature-item">
+                <div class="left_item">
+                    <h3>Leather Strap</h3>
+                    <p>
+                        A leather strap is a popular and stylish
+                        option for a watch band. Leather straps
+                        are comfortable to wear, durable, and
+                        can come in a range of colors and
+                        finishes.
+                    </p>
                 </div>
-                    <div class="service-feature-item-right-content">
-                        <div class="right_item">
-                            <h3>Lock System</h3>
-                            <p>
-                                A lock system for a watch is a 
-                                mechanism that prevents unauthorized 
-                                access to the watch and its functions.
-                            </p>
-                        </div>
-                        <div class="right_item">
-                            <h3>Heart Button</h3>
-                            <p>
-                                A heart button for a watch could refer 
-                                to a button that has a heart symbol on 
-                                it, or a button that is specifically 
-                                designed to monitor the wearer's heart 
-                                rate.
-                            </p>
-                        </div>
-                        <div class="right_item">
-                             <h3>Lock Hole System</h3>
-                            <p>
-                                A lock hole system for a watch is a 
-                                mechanism that allows the watch to 
-                                be securely attached to a strap or 
-                                bracelet.
-                            </p>
-                        </div>
-                        
-                    </div>
+                <div class="left_item">
+                    <h3>LCD Waterproof</h3>
+                    <p>
+                        An LCD waterproof watch is a
+                        timepiece that has a liquid crystal
+                        display (LCD) andis designed to be
+                        water-resistant.
+                    </p>
+                </div>
+                <div class="left_item">
+                    <h3>Creative Design</h3>
+                    <p>
+                        There are countless creative designs
+                        for watches, ranging from minimalistic
+                        and sleek tobold and colorful.
+                    </p>
+                </div>
+            </div>
+            <div class="service-feature-column-center">
+                <p class="service-feature-center-description">
+                    Watch companies now focusing more on trendy watches which targets the youngster who
+                    always.
+                </p>
+                <img src="/img/big_logo1.svg"
+                     alt="" class="watch_img"/>
+            </div>
+            <div class="service-feature-item-right-content">
+                <div class="right_item">
+                    <h3>Lock System</h3>
+                    <p>
+                        A lock system for a watch is a
+                        mechanism that prevents unauthorized
+                        access to the watch and its functions.
+                    </p>
+                </div>
+                <div class="right_item">
+                    <h3>Heart Button</h3>
+                    <p>
+                        A heart button for a watch could refer
+                        to a button that has a heart symbol on
+                        it, or a button that is specifically
+                        designed to monitor the wearer's heart
+                        rate.
+                    </p>
+                </div>
+                <div class="right_item">
+                    <h3>Lock Hole System</h3>
+                    <p>
+                        A lock hole system for a watch is a
+                        mechanism that allows the watch to
+                        be securely attached to a strap or
+                        bracelet.
+                    </p>
+                </div>
+
             </div>
         </div>
-        
+    </div>
+
 </div>
 <div class="five_background">
-    <div class="page5_main_page">
-        <div class="page5_main_info">
-            <h1>A great deal to love</h1>
-            <p>A watch that is comfortable to wear and fits well on the wrist can also be a key factor in making it a
-                "great deal to love." Ultimately, finding a watch that meets your needs and personal style preferences
-                while also offering excellent value can be a satisfying and enjoyable purchase.</p>
-        </div>
-        <div>
-            <button class="contact-us-button">
-                <span>
-                     Purchase Now
-                </span>
-            </button>
-        </div>
-    </div>
-    <div class="page5_windows">
-        <div class="window_1">
-            <img src="/img/page4_logo.svg"/>
-        </div>
-        <div class="inner_window">
-            <div class="inner_info_1">
-                <h2>Fast And Fashionable</h2>
-                <p>This watch is designed with speed and style 
-                    in mind, making it the perfect accessory 
-                    for those who live life in the fast lane.
-                     With its minimalist design and attention 
-                     to detail, this watch is the ultimate 
-                     blend of fashion and function.</p>
+    <div class="inner_page5">
+        <div class="page5_main_page">
+            <div class="page5_main_info">
+                <h1>A great deal to love</h1>
+                <p>A watch that is comfortable to wear and fits well on the wrist can also be a key factor in making it a "great deal
+                    to love." Ultimately, finding a watch that meets your needs and personal style preferences while also offering
+                    excellent value can be a satisfying and enjoyable purchase.</p>
             </div>
-        </div>
-        <div class="window_2">
-            <img src="/img/page4_logo2.svg"/>
-        </div>
-       <div class="inner_window">
-            <div class="inner_info_2">
-            <h2>Swim-suitable</h2>
-            <p>A swim-suitable watch may also 
-                have a special feature like a 
-                rotating bezel or a countdown 
-                timer to help swimmers track 
-                their laps and time their 
-                workouts.</p>
-        </div>
-       </div>
-    </div>
-</div>
-
-
-
-<div class="container">
-
-    <div class="five_background">
-        <div class="page5_main_info">
-            <h1>A great deal to love</h1>
-            <p>A watch that is comfortable to wear and fits well on the wrist can also be a key factor in making it a
-                "great deal to love." Ultimately, finding a watch that meets your needs and personal style preferences
-                while also offering excellent value can be a satisfying and enjoyable purchase.</p>
             <div>
                 <button class="contact-us-button">
                     <span>
@@ -364,86 +323,181 @@
         </div>
         <div class="page5_windows">
             <div class="window_1">
-               
-                <div class="inner_window_1">
-                    <img src="/img/page4_logo.svg"/>
-                    <div class="page5_info">
-                        <h2>Fast And Fashionable</h2>
-                        <p>This watch is designed with speed and style in mind, making it the perfect accessory for those
-                            who live life in the fast lane. With its minimalist design and attention to detail, this watch
-                            is the ultimate blend of fashion and function.</p>
-                    </div>
+                <img src="/img/page4_logo.svg"/>
+            </div>
+            <div class="inner_window">
+                <div class="inner_info_1">
+                    <h2>Fast And Fashionable</h2>
+                    <p>This watch is designed with speed and style
+                        in mind, making it the perfect accessory
+                        for those who live life in the fast lane.
+                        With its minimalist design and attention
+                        to detail, this watch is the ultimate
+                        blend of fashion and function.</p>
                 </div>
             </div>
             <div class="window_2">
-        
-                    <div class="page5_info_2">
-                        <h2>Swim-suitable</h2>
-                        <p>A swim-suitable watch may also have a special feature like a rotating bezel or a countdown timer
-                            to
-                            help swimmers track their laps and time their workouts.</p>
-                    </div>
+                <img src="/img/page4_logo2.svg"/>
+            </div>
+            <div class="inner_window">
+                <div class="inner_info_2">
+                    <h2>Swim-suitable</h2>
+                    <p>A swim-suitable watch may also
+                        have a special feature like a
+                        rotating bezel or a countdown
+                        timer to help swimmers track
+                        their laps and time their
+                        workouts.</p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="page4_main_info">
-        <div class="page5_item_left">
-            <div class="left_item">
-                <h3 class="page4_title_text_item">Leather Strap</h3>
-                <p class="page4_text_item">
-                    A leather strap is a popular and stylish option for a watch band. Leather straps are
-                    comfortable to wear, durable, and can come in a range of colors and finishes.
-                </p>
-            </div>
-            <div class="left_item">
-                <h3 class="page4_title_text_item">LCD Waterproof</h3>
-                <p class="page4_text_item">
-                An LCD waterproof watch is a timepiece that has a liquid crystal display (LCD) and
-                is designed to be water-resistant.
-                </p>
-            </div>
-            <div class="left_item">
-                <h3 class="service-feature-item-bottom">Creative Design</h3>
-                <p class="page4_text_item">
-                There are countless creative designs for watches, ranging from minimalistic and sleek to
-                bold and colorful.
-            </p>
-            </div>
-        </div>
 
-        <div class="page5_item_center">
-            <img src="/img/big_logo1.svg"
-            alt="" class="watch_img"/>
-        </div>
+</div>
+<div class="six_background">
+    <div class="six_main_info">
+        <h2>Feedback From Our Clients</h2>
+        <p>This feedback can come in various forms, such as surveys, online reviews, emails, phone calls.</p>
+    </div>
 
-        <div class="page5_item_right">
-            <div class="left_item">
-                <h3 class="page4_title_text_item">Leather Strap</h3>
-                <p class="page4_text_item">
-                    A leather strap is a popular and stylish option for a watch band. Leather straps are
-                    comfortable to wear, durable, and can come in a range of colors and finishes.
-                </p>
+    <div class="swiper mySwiper">
+        <div class="info">
+        <div class="container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img class="swiper_img" src="/img/gigachad/gigachad1.svg">
+
+                        <section class="swider_text">
+                            <h3></h3>
+                            <p></p>
+                        </section>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img class="swiper_img" src="/img/gigachad/gigachad1.svg">
+                        <section class="swider_text">
+                            <h3></h3>
+                            <p></p>
+                        </section>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img class="swiper_img" src="/img/gigachad/gigachad1.svg">
+                        <section class="swider_text">
+                            <h3></h3>
+                            <p></p>
+                        </section>
+
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img class="swiper_img" src="/img/gigachad/gigachad1.svg">
+                        <section class="swider_text">
+                            <h3></h3>
+                            <p></p>
+                        </section>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img class="swiper_img" src="/img/gigachad/gigachad1.svg">
+                        <section class="swider_text">
+                            <h3></h3>
+                            <p></p>
+                        </section>
+                    </div>
+                </div>
             </div>
-            <div class="left_item">
-                <h3 class="page4_title_text_item">LCD Waterproof</h3>
-                <p class="page4_text_item">
-                An LCD waterproof watch is a timepiece that has a liquid crystal display (LCD) and
-                is designed to be water-resistant.
-                </p>
-            </div>
-            <div class="left_item">
-                <h3 class="page4_title_text_item">Creative Design</h3>
-                <p class="page4_text_item">
-                There are countless creative designs for watches, ranging from minimalistic and sleek to
-                bold and colorful.
+            <div class="swiper-pagination"></div>
+
+        </div>
+        <div class="comment">
+            <img src="/img/star/raiting.svg">
+            <h2>info</h2>
+            <p>
+                One of my favorite features is the watch's water resistance. I love being able to wear it while swimming or participating in water sports without worrying about damage. The watch also has multiple time zones, which is incredibly useful for my frequent international travel.”
+            
             </p>
-            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="seven_background">
+    <div class="inner_seven_back">
+        <svg width="142" height="24" viewBox="0 0 142 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+             class="svg_logo">
+            <path d="M7.72617 20.8184C6.58815 19.1113 5.45013 16.8724 4.31211 14.1016L0.230078 3.5625C0.10638 3.29036 0.0321615 2.99349 0.00742188 2.67188C-0.0420573 1.97917 0.155859 1.38542 0.601172 0.890625C1.07122 0.395833 1.66497 0.148438 2.38242 0.148438C3.14935 0.148438 3.71836 0.321615 4.08945 0.667969C4.48529 0.989583 4.8069 1.41016 5.0543 1.92969L8.57969 11.5781C8.97552 12.5924 9.35898 13.5573 9.73008 14.4727C10.1259 15.3633 10.5589 16.1797 11.0289 16.9219C11.499 17.6641 12.0309 18.0599 12.6246 18.1094C13.1936 18.0599 13.7008 17.6641 14.1461 16.9219C14.6409 16.1797 15.0738 15.3633 15.4449 14.4727C15.8408 13.5573 16.2366 12.5924 16.6324 11.5781L20.0836 1.92969C20.331 1.41016 20.6402 0.989583 21.0113 0.667969C21.4072 0.321615 22.0133 0.148438 22.8297 0.148438C23.5471 0.148438 24.1285 0.395833 24.5738 0.890625C25.0439 1.38542 25.2542 1.97917 25.2047 2.67188C25.1799 2.99349 25.1057 3.29036 24.982 3.5625L20.9 14.1016C19.762 16.9219 18.624 19.1732 17.4859 20.8555C16.3727 22.513 14.7522 23.3542 12.6246 23.3789C10.4723 23.3542 8.83945 22.5007 7.72617 20.8184Z"
+                  fill="black"/>
+            <path d="M48.9547 0.890625C50.2164 0.915365 51.3421 1.3112 52.3316 2.07812C53.3212 2.84505 54.1129 3.76042 54.7066 4.82422C55.3251 5.88802 55.7828 7.01367 56.0797 8.20117C56.3766 9.38867 56.525 10.6009 56.525 11.8379C56.525 13.4707 56.2652 15.0788 55.7457 16.6621C55.2509 18.2207 54.4221 19.6061 53.2594 20.8184C52.1214 22.0306 50.6865 22.6862 48.9547 22.7852H36.0035C34.2717 22.7109 32.8245 22.0677 31.6617 20.8555C30.499 19.6432 29.6702 18.2454 29.1754 16.6621C28.7053 15.0788 28.4703 13.4707 28.4703 11.8379C28.4703 10.2051 28.7177 8.60938 29.2125 7.05078C29.7073 5.46745 30.5237 4.06966 31.6617 2.85742C32.8245 1.62044 34.2717 0.964844 36.0035 0.890625H36.7086H48.2496H48.9547ZM47.693 17.8125C48.6331 17.763 49.4124 17.4167 50.0309 16.7734C50.6741 16.1055 51.1318 15.3385 51.4039 14.4727C51.676 13.6068 51.8121 12.7285 51.8121 11.8379C51.8121 10.9473 51.6637 10.0814 51.3668 9.24023C51.0947 8.37435 50.6493 7.60742 50.0309 6.93945C49.4124 6.27148 48.6331 5.91276 47.693 5.86328H37.1539C36.2138 5.91276 35.4345 6.27148 34.816 6.93945C34.1975 7.60742 33.7398 8.37435 33.443 9.24023C33.1708 10.0814 33.0348 10.9473 33.0348 11.8379C33.0348 12.7285 33.1708 13.6068 33.443 14.4727C33.7151 15.3385 34.1604 16.1055 34.7789 16.7734C35.4221 17.4167 36.2138 17.763 37.1539 17.8125H47.693Z"
+                  fill="black"/>
+            <path d="M63.0563 0.296875C63.749 0.296875 64.3427 0.531901 64.8375 1.00195C65.3323 1.44727 65.5921 2.01628 65.6168 2.70898V11.6523C65.5921 12.6667 65.6539 13.6068 65.8023 14.4727C65.9755 15.3138 66.3714 16.0684 66.9898 16.7363C67.6083 17.4043 68.3876 17.763 69.3277 17.8125H81.2027C81.8954 17.8372 82.4645 18.097 82.9098 18.5918C83.3798 19.0866 83.6148 19.6803 83.6148 20.373C83.5901 21.041 83.3427 21.61 82.8727 22.0801C82.4273 22.5254 81.8707 22.7604 81.2027 22.7852H68.066C66.3342 22.6862 64.8994 22.1048 63.7613 21.041C62.648 19.9525 61.844 18.6289 61.3492 17.0703C60.8792 15.5117 60.6318 13.8542 60.607 12.0977V2.70898C60.6318 2.04102 60.8792 1.48438 61.3492 1.03906C61.8193 0.56901 62.3883 0.321615 63.0563 0.296875Z"
+                  fill="black"/>
+            <path d="M95.4898 17.0332C95.4898 16.3405 95.7249 15.7591 96.1949 15.2891C96.6897 14.7943 97.2835 14.5469 97.9762 14.5469H103.654L102.689 11.8008C102.293 10.7865 101.897 9.83398 101.502 8.94336C101.13 8.028 100.698 7.19922 100.203 6.45703C99.7574 5.71484 99.2503 5.31901 98.6813 5.26953C98.0875 5.31901 97.5556 5.71484 97.0855 6.45703C96.6155 7.19922 96.1826 8.028 95.7867 8.94336C95.4156 9.83398 95.0322 10.7865 94.6363 11.8008L91.1109 21.4492C90.8635 21.9688 90.5419 22.4017 90.1461 22.748C89.775 23.0697 89.206 23.2305 88.4391 23.2305C87.7216 23.2305 87.1279 22.9831 86.6578 22.4883C86.2125 21.9935 86.0146 21.3997 86.0641 20.707C86.0888 20.3854 86.163 20.0885 86.2867 19.8164L90.3688 9.27734C91.5068 6.50651 92.6448 4.26758 93.7828 2.56055C94.8961 0.878255 96.5289 0.0247396 98.6813 0C100.809 0.0247396 102.429 0.878255 103.543 2.56055C104.681 4.2181 105.819 6.45703 106.957 9.27734L111.039 19.8164C111.162 20.0885 111.237 20.3854 111.261 20.707C111.311 21.3997 111.101 21.9935 110.63 22.4883C110.185 22.9831 109.604 23.2305 108.886 23.2305C108.07 23.2305 107.464 23.0697 107.068 22.748C106.697 22.4017 106.388 21.9688 106.14 21.4492L105.435 19.5195H97.9762C97.2835 19.5195 96.7021 19.2721 96.232 18.7773C95.7372 18.3073 95.4898 17.7259 95.4898 17.0332Z"
+                  fill="black"/>
+            <path d="M119.982 20.8926C119.834 22.377 119.017 23.181 117.533 23.3047C116.84 23.3047 116.234 23.082 115.714 22.6367C115.22 22.1667 114.972 21.5853 114.972 20.8926V3.30273C114.997 2.61003 115.257 2.04102 115.752 1.5957C116.246 1.12565 116.84 0.890625 117.533 0.890625H119.351H123.916H133.082C133.23 0.890625 133.379 0.902995 133.527 0.927734H133.75C135.481 0.977214 136.904 1.37305 138.017 2.11523C139.13 2.85742 139.934 3.71094 140.429 4.67578C140.924 5.61589 141.171 6.56836 141.171 7.5332C141.171 8.52279 140.924 9.5 140.429 10.4648C139.959 11.4049 139.155 12.2461 138.017 12.9883C136.904 13.7305 135.481 14.1263 133.75 14.1758H127.218C127.416 15.4128 127.824 16.3281 128.443 16.9219C129.037 17.5156 129.791 17.8125 130.707 17.8125H138.722C139.415 17.8372 139.984 18.097 140.429 18.5918C140.899 19.0866 141.134 19.6803 141.134 20.373C141.11 21.041 140.862 21.61 140.392 22.0801C139.947 22.5254 139.39 22.7604 138.722 22.7852H130.039C128.208 22.8099 126.55 22.0924 125.066 20.6328C123.582 19.1732 122.679 17.4414 122.357 15.4375C121.912 13.2109 121.689 11.9616 121.689 11.6895C121.689 10.9967 121.924 10.4154 122.394 9.94531C122.889 9.45052 123.483 9.20312 124.175 9.20312H133.972C134.442 9.17839 134.826 9.07943 135.123 8.90625C135.444 8.70833 135.679 8.49805 135.828 8.27539C135.976 8.028 136.05 7.7806 136.05 7.5332C136.05 7.28581 135.976 7.05078 135.828 6.82812C135.679 6.58073 135.444 6.37044 135.123 6.19727C134.826 5.99935 134.442 5.88802 133.972 5.86328H123.916H120.947C120.304 5.88802 119.982 6.20964 119.982 6.82812V20.8926Z"
+                  fill="black"/>
+            <path d="M63.0563 0.296875C63.749 0.296875 64.3427 0.531901 64.8375 1.00195C65.3323 1.44727 65.5921 2.01628 65.6168 2.70898V11.6523C65.5921 12.6667 65.6539 13.6068 65.8023 14.4727C65.9755 15.3138 66.3714 16.0684 66.9898 16.7363C67.6083 17.4043 68.3876 17.763 69.3277 17.8125H81.2027C81.8954 17.8372 82.4645 18.097 82.9098 18.5918C83.3798 19.0866 83.6148 19.6803 83.6148 20.373C83.5901 21.041 83.3427 21.61 82.8727 22.0801C82.4273 22.5254 81.8707 22.7604 81.2027 22.7852H68.066C66.3342 22.6862 64.8994 22.1048 63.7613 21.041C62.648 19.9525 61.844 18.6289 61.3492 17.0703C60.8792 15.5117 60.6318 13.8542 60.607 12.0977V2.70898C60.6318 2.04102 60.8792 1.48438 61.3492 1.03906C61.8193 0.56901 62.3883 0.321615 63.0563 0.296875Z"
+                  fill="#E34C48"/>
+        </svg>
+
+        <p>Thank you for choosing VOLAR for your watch needs. We look forward to helping
+            you find the perfect timepiece to suit your style and lifestyle.</p>
+        <form class="request_data">
+            <input type="text" placeholder="Enter Email Address"/>
+            <button class="contact-us-button" onclick="goToLinkNotFound()">
+                <span>
+                    Subscribe
+                </span>
+            </button>
+        </form>
+        <div class="social-media">
+            <button class="facebook-media">
+                <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.46643 15.1111V8.21873H7.94825L8.3206 5.53185H5.46643V3.81667C5.46643 3.039 5.69724 2.50902 6.8954 2.50902L8.42105 2.50844V0.105196C8.15721 0.0732476 7.25154 0 6.19743 0C3.99629 0 2.48934 1.25193 2.48934 3.55056V5.53185H0V8.21873H2.48934V15.1111H5.46643Z"
+                          fill="#E34C48"/>
+                </svg>
+
+            </button>
+            <button class="instagram-media">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.0727 4.44357C15.0373 3.6405 14.9074 3.0884 14.7214 2.61C14.5295 2.10218 14.2342 1.64754 13.8474 1.26959C13.4695 0.885761 13.0118 0.587509 12.5099 0.398593C12.0287 0.21256 11.4795 0.0826941 10.6764 0.0472867C9.86736 0.00888067 9.61051 0 7.5585 0C5.50648 0 5.24964 0.00888067 4.44357 0.0442881C3.6405 0.0796955 3.0884 0.209676 2.61011 0.395594C2.10218 0.587509 1.64754 0.882763 1.26959 1.26959C0.885761 1.64754 0.587624 2.10518 0.398593 2.60711C0.21256 3.0884 0.0826941 3.6375 0.0472867 4.44057C0.00888067 5.24963 0 5.50648 0 7.5585C0 9.61051 0.00888067 9.86736 0.0442881 10.6734C0.0796955 11.4765 0.209676 12.0286 0.395709 12.507C0.587624 13.0148 0.885761 13.4695 1.26959 13.8474C1.64754 14.2312 2.10518 14.5295 2.60711 14.7184C3.0884 14.9044 3.6375 15.0343 4.44069 15.0697C5.24664 15.1052 5.5036 15.114 7.55561 15.114C9.60763 15.114 9.86448 15.1052 10.6705 15.0697C11.4736 15.0343 12.0257 14.9044 12.504 14.7184C13.5197 14.3257 14.3228 13.5226 14.7155 12.507C14.9014 12.0257 15.0314 11.4765 15.0668 10.6734C15.1022 9.86736 15.1111 9.61051 15.1111 7.5585C15.1111 5.50648 15.1081 5.24963 15.0727 4.44357ZM13.7117 10.6144C13.6791 11.3525 13.5551 11.7511 13.4518 12.0168C13.1978 12.6753 12.6753 13.1978 12.0168 13.4518C11.7511 13.5551 11.3496 13.6791 10.6144 13.7115C9.81719 13.7471 9.5781 13.7558 7.5615 13.7558C5.54489 13.7558 5.3028 13.7471 4.5085 13.7115C3.77037 13.6791 3.37178 13.5551 3.10605 13.4518C2.77838 13.3307 2.48013 13.1388 2.23805 12.8878C1.98708 12.6427 1.79517 12.3475 1.67407 12.0198C1.57073 11.7541 1.44674 11.3525 1.41433 10.6174C1.37881 9.82019 1.37005 9.58098 1.37005 7.56438C1.37005 5.54777 1.37881 5.30569 1.41433 4.5115C1.44674 3.77337 1.57073 3.37477 1.67407 3.10905C1.79517 2.78127 1.98708 2.48313 2.24105 2.24093C2.48601 1.98996 2.78127 1.79805 3.10905 1.67706C3.37477 1.57373 3.77637 1.44974 4.5115 1.41722C5.30869 1.38181 5.54789 1.37293 7.56438 1.37293C9.58398 1.37293 9.82307 1.38181 10.6174 1.41722C11.3555 1.44974 11.7541 1.57373 12.0198 1.67706C12.3475 1.79805 12.6457 1.98996 12.8878 2.24093C13.1388 2.48601 13.3307 2.78127 13.4518 3.10905C13.5551 3.37477 13.6791 3.77625 13.7117 4.5115C13.7471 5.30869 13.7559 5.54777 13.7559 7.56438C13.7559 9.58098 13.7471 9.81719 13.7117 10.6144Z"
+                          fill="#E34C48"/>
+                    <path d="M7.55837 3.67578C5.4149 3.67578 3.67578 5.41478 3.67578 7.55837C3.67578 9.70196 5.4149 11.441 7.55837 11.441C9.70196 11.441 11.441 9.70196 11.441 7.55837C11.441 5.41478 9.70196 3.67578 7.55837 3.67578ZM7.55837 10.0769C6.16779 10.0769 5.03983 8.94906 5.03983 7.55837C5.03983 6.16768 6.16779 5.03983 7.55837 5.03983C8.94906 5.03983 10.0769 6.16768 10.0769 7.55837C10.0769 8.94906 8.94906 10.0769 7.55837 10.0769Z"
+                          fill="#E34C48"/>
+                    <path d="M12.5014 3.52359C12.5014 4.02414 12.0955 4.43 11.5949 4.43C11.0943 4.43 10.6885 4.02414 10.6885 3.52359C10.6885 3.02293 11.0943 2.61719 11.5949 2.61719C12.0955 2.61719 12.5014 3.02293 12.5014 3.52359Z"
+                          fill="#E34C48"/>
+                </svg>
+
+
+            </button>
+            <button class="twitter-media">
+                <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.8889 1.52894C16.2608 1.78824 15.5916 1.9601 14.8939 2.04356C15.6117 1.64021 16.1595 1.00638 16.4171 0.242405C15.7478 0.617935 15.0089 0.88319 14.2215 1.03122C13.5861 0.394405 12.6804 0 11.6924 0C9.7755 0 8.23228 1.46437 8.23228 3.25956C8.23228 3.51786 8.2555 3.76622 8.3125 4.00267C5.434 3.87054 2.88694 2.57208 1.17589 0.594092C0.877167 1.08188 0.701944 1.64021 0.701944 2.24126C0.701944 3.36983 1.31944 4.37025 2.23989 4.94944C1.68361 4.9395 1.13789 4.7875 0.675555 4.54808C0.675555 4.55801 0.675555 4.57093 0.675555 4.58384C0.675555 6.16742 1.87572 7.48277 3.44956 7.78578C3.16772 7.8583 2.86056 7.89307 2.54178 7.89307C2.32011 7.89307 2.09633 7.88115 1.88628 7.83744C2.33489 9.12795 3.60789 10.0767 5.12156 10.1075C3.94356 10.9748 2.44783 11.4974 0.828611 11.4974C0.544667 11.4974 0.272333 11.4854 0 11.4527C1.53372 12.3835 3.35139 12.915 5.31156 12.915C11.6829 12.915 15.1662 7.94771 15.1662 3.64204C15.1662 3.49799 15.1609 3.3589 15.1536 3.22081C15.8407 2.76183 16.4181 2.1886 16.8889 1.52894Z"
+                          fill="#E34C48"/>
+                </svg>
+
+
+            </button>
+            <button class="pinterest-media">
+                <svg width="13" height="15" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.29753 0C2.18641 0 6.10352e-05 2.63449 6.10352e-05 5.50712C6.10352e-05 6.83937 0.74447 8.5007 1.93609 9.0276C2.11703 9.10916 2.21547 9.07447 2.25579 8.90665C2.29141 8.77915 2.44798 8.16506 2.52393 7.87536C2.54736 7.78254 2.53518 7.70191 2.46017 7.61472C2.06453 7.1572 1.75045 6.32372 1.75045 5.54181C1.75045 3.53829 3.34334 1.59288 6.05377 1.59288C8.39763 1.59288 10.0374 3.11545 10.0374 5.29337C10.0374 7.75441 8.73514 9.45699 7.04288 9.45699C6.10628 9.45699 5.40874 8.72196 5.63 7.81254C5.8972 6.72968 6.42129 5.56525 6.42129 4.78428C6.42129 4.08394 6.02565 3.50453 5.21748 3.50453C4.264 3.50453 3.49053 4.44864 3.49053 5.7162C3.49053 6.52155 3.77554 7.06532 3.77554 7.06532C3.77554 7.06532 2.83238 10.8755 2.65706 11.5871C2.36079 12.7918 2.69737 14.7429 2.72643 14.9107C2.74425 15.0035 2.84832 15.0326 2.90644 14.9566C2.99926 14.8347 4.13931 13.2081 4.45901 12.0324C4.57527 11.604 5.05248 9.8667 5.05248 9.8667C5.36655 10.4339 6.27316 10.9092 7.23883 10.9092C10.1115 10.9092 12.1872 8.38444 12.1872 5.25118C12.1769 2.24729 9.60612 0 6.29753 0Z"
+                          fill="#E34C48"/>
+                </svg>
+
+            </button>
         </div>
     </div>
 </div>
 
 
 
+</div>
 <script src="/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="/js/swiper.js"></script>
 </body>
 </html>

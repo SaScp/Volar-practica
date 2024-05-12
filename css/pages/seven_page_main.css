@@ -1,0 +1,66 @@
+.seven_background {
+    background-color: #FBF9FA;
+    background-repeat: no-repeat;
+    border-radius: 700px 250px 0px 0px;
+    background-size: cover;
+}
+.inner_seven_back p {
+    font: 300 16px Poppins, sans-serif;
+    margin: 0 auto;
+    white-space: pre-line;
+}
+.inner_seven_back svg {
+    margin: 0 auto;
+    padding: 10px;
+}
+.inner_seven_back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    padding: 30px;
+    padding-top: 50px;
+}
+.request_data {
+    display: flex;
+    justify-content: center;
+    box-sizing:border-box;
+}
+.request_data {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 24px;
+    border: solid 1px rgba(128, 128, 128, 0.1);
+    max-width: 100%;
+   }
+.request_data input[type=text] {
+    font: 300 16px Poppins, sans-serif;
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    vertical-align: middle; /* Выравнивание по середине */
+    padding: 10px;
+    max-width: 100%;
+    width: 300px;
+}
+
+.social-media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.social-media button {
+    border-radius: 100%;
+    margin: 0 auto;
+    padding: 4px 5px;
+    border: solid 1px rgba(128, 128, 128, 0.1);
+    background-color: white;
+    cursor: pointer;
+}
+.facebook-media svg {
+    margin-left: 5px;
+    margin-right: 5px;
+}

@@ -1,0 +1,16 @@
+
+
+.six_main_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #2c2c2c;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0 auto;
+    font: 700 45px Montserrat, sans-serif;
+}
+.six_main_info h2 {
+    font: 700 45px Montserrat, sans-serif;
+}

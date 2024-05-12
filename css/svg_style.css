@@ -31,7 +31,6 @@
     transition: all 0.5s ease-in-out;
 }
 .svg_logo {
-    float: left;
     padding: 40px;
     display: block;
 }

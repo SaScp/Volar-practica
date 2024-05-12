@@ -1,0 +1,122 @@
+.six_background * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.swiper-3d .swiper-wrapper {
+    transform: translate(-50%, -50%);
+}
+.swiper-slide {
+    filter: grayscale(25%) opacity(25%);
+    
+}
+
+.swiper-slide-active {
+    filter: blur(0);
+    margin-bottom: 250px;
+}
+
+.six_background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.mySwiper {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 10%;
+    justify-content: center;
+    gap: 100px;
+   
+}
+.swider_text {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    padding: 100px;
+    white-space: pre-line;
+    
+}
+.swiper-3d .swiper-slide-shadow-left {
+    background-image:none;
+}
+.swiper-3d .swiper-slide-shadow-right {
+    background-image:none;
+}
+.swiper-slide {
+    width: auto;
+    height: 200px;
+    align-items: end;
+}
+
+.swiper_img {
+    border-radius: 100%;
+    padding: 2px;
+    border: solid 1px rgba(128, 128, 128, 0.1);
+    overflow: hidden;
+}
+
+.swiper-wrapper div::marker{
+    margin-top: 320px;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    white-space: pre-line;
+    max-width: 100%;
+}
+.info p {
+    text-align: center;
+    margin: 0 auto;
+}
+.comment img {
+    width: 100px;
+}
+.none_conteiner {
+    display: none;
+}
+.comment {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    margin: 120px;
+    margin-left: 270px;
+    margin-right: 270px;
+    text-align: center;
+    align-items: center;
+}
+.comment h2 {
+    margin: 0 auto;
+}
+.container {
+    margin: 0 auto;
+}
+.swiper-pagination {
+    position: relative;
+    background: transparent;
+    width: 9px;
+    height: 9px;
+    z-index: 0;
+}
+.swiper-pagination-bullet {
+    position: relative;
+    background: #fff;
+    border: solid 1px red;
+    width: 15px;
+    height: 15px;
+    z-index: 0;
+}
+.swiper-pagination-bullet:hover {
+    position: relative;
+    border: solid 3px red;
+    z-index: 0;
+}

@@ -18,10 +18,17 @@
         font-size: 26px;
     }
     .page5_main_info p {
-        font-size: 8.2px;
+        font-size: 11px;
     }
-    ..page5_windows {
+    .seven_background {
+        border-radius: 300px 150px 0px 0px;
+        margin: 0 auto;
+    }
+    .page5_windows {
         gap: 1px;
+    }
+    .inner_seven_back p {
+       font-size: 13px;
     }
     .right_item p {
         font-size: 11px
@@ -77,7 +84,7 @@
     }
 
     .contact-us-button {
-        padding: 8px 12px;
+        padding: 12px 20px;
     }
     .galochka_item {
         display: block;
@@ -87,6 +94,9 @@
         padding-bottom: 7px;
     }
     .page3_main_info h1 {
+        font-size: 27px;
+    }
+    .six_main_info h2 {
         font-size: 27px;
     }
     .page3_text {
@@ -150,7 +160,9 @@
         margin: 0;
         max-width: 100%;
     }
-  
+    .request_data input[type=text] {
+        width: 209.2px;   
+    }
 }
 @media (max-width: 923px) {
     .window_1 {
@@ -166,7 +178,22 @@
         flex-direction: column;
         justify-self: center;
     }
-
+    
+}
+@media (max-width: 759px) {
+    
+}
+@media (max-width: 845px) {
+    .comment {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        margin: 200px;
+        margin-top: 120px;
+        text-align: center;
+        align-items: center;
+    }
 }
 @media (max-width: 1190px)  {
     .service-feature-item {
@@ -179,7 +206,7 @@
     .service-feature-item-right-content {
         flex-direction: row;
         flex-wrap: wrap-reverse;
-        justify-content:  center;
+        justify-content: center;
         align-items: center;
         gap: 9px;
     }

@@ -33,6 +33,7 @@ h1 {
 a,p {
     font: 400 16px Poppins, sans-serif;
     color: gray;
+    white-space: pre-line;
 }
 
 .info_containt h1 {
