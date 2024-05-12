@@ -27,13 +27,12 @@
     color: #e34c48;
 }
 
-.galochka_item a {
-    display: flex;
-    padding: 5px;
+h1 {
+    font: 700 45px Montserrat sans-serif;
 }
-
-.a {
-    font-family: var(--font-family);
+a,p {
+    font: 400 16px Poppins, sans-serif;
+    color: gray;
 }
 
 .info_containt h1 {
@@ -57,9 +56,7 @@
 }
 
 .second_text {
-    font-family: var(--second-family);
-    font-weight: 200;
-    font-size: 16px;
+    font: 300 16px var(--second-family);
     white-space: pre-line;
     text-align: center;
     color: #4b4b4b;
@@ -68,38 +65,43 @@
 }
 
 .page2_item p {
-    font-family: var(--second-family);
-    font-size: 15px;
+    font: 300 16px var(--second-family);
     padding: 0px 40px 0px 42px;
+    margin: 0 auto;
 }
 
 .page2_item h2 {
-    font-family: var(--second-family);
-    font-size: 15px;
+    font: 700 22px var(--font-family);
+    text-transform: capitalizFe;
+    color: #2c2c2c;
     padding: 0px 40px 0px 42px;
-}
 
-.page2_item h2 {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 22px;
-    text-transform: capitalize;
+}
+.page5_main_info h1 {
+    font: 700 45px Montserrat, sans-serif;
+    white-space: pre-line;
     color: #2c2c2c;
 }
-
+.page5_main_info p {
+    font: 300 16px Poppins, sans-serif;
+    white-space: pre-line;
+    color: #4B4B4B;
+}
 .page3_text {
-    margin: 0 auto;
-    padding: 10px;
+    margin: 0;
     font: 300 16px Poppins, sans-serif;
     white-space: pre-line;
     color: #4B4B4B;
 
 }
+.page3_main_info h1 {
+    font: 700 45px Montserrat, sans-serif;
+    white-space: pre-line;
+    color: #2c2c2c;
+}
 
 .galochka_item {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
+    font: 300 16px var(--second-family);
     color: #2c2c2c;
 }
 

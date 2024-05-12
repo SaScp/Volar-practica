@@ -24,7 +24,9 @@
     position: relative;
     overflow: hidden;
 }
-
+.container {
+    display: none;
+}
 .contact-us-button span {
     color: black;
     position: relative;
@@ -81,6 +83,7 @@
 body{
     display: flex;
     flex-direction: column;
+    gap: 119px;
 }
 .svg_search_and_contact div {
     float: left;

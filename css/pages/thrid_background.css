@@ -4,28 +4,39 @@
 
 .galochka_items {
     display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
 }
-
+.galochka_inner_item {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 100%;
+}
 .galochka_item {
     display: flex;
-    padding: 7px;
-    font-size: 16px;
+    max-width: 100%;
+    gap: 5px;
+    margin: 0;
 }
-
 .main_page3_page {
     margin: 0 auto;
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     max-width: 1800px;
 }
 .page3_main_info {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
-    padding: 170px 0px;
+    align-items: start;
     font: 300 16px Poppins, sans-serif;
 }
 
 ._watch {
     margin: 0 auto;
-    padding: 40px 50px;
 }
 

@@ -28,22 +28,17 @@
 }
 .main_page {
     max-width: 1800px;
+    gap: 20px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .main_info {
     margin: 0 auto;
-    padding: 170px 40px;
 }
 .slider_watch{
     margin: auto auto;
     display: flex;
     flex-wrap: wrap;
-}
-@media (max-width: 760px) {
-    .sliding_img {
-        flex-direction: row;
-        padding:  0px 25%;
-    }
 }
