@@ -2,12 +2,12 @@ const mySwiper = new Swiper('.container', {
     effect: 'coverflow',
     grabCursor: true,
     centeredSlides: true,
-    loop: true,
-    slidesPerView: 'auto',
+    loop: false,
+    slidesPerView: 5,
     
     coverflowEffect: {
         rotate: 0,
-        stretch: 22,
+        stretch: 32,
         depth: 30,
         modifier: 42,
     },
@@ -16,3 +16,7 @@ const mySwiper = new Swiper('.container', {
         clickable: true
     }
 });
+
+
+
+

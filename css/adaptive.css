@@ -40,7 +40,13 @@
     .service-feature-title {
         font-size: 26px;
     }
-   
+    .mySwiper {
+        display: none;
+    }
+    .hidden_swider {
+        width: auto;
+        height: auto;
+    }
     .service-feature-column-center p {
         font-size: 11px
     }
