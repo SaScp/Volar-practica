@@ -48,7 +48,7 @@
         height: auto;
     }
     .service-feature-column-center p {
-        font-size: 11px
+        font: 300 14px Poppins, sans-serif;
     }
     
     body {
@@ -96,8 +96,8 @@
         display: block;
     }
     .page3_main_info {
-        padding: 20px;
         padding-bottom: 7px;
+        margin: 0px 23px;
     }
     .page3_main_info h1 {
         font-size: 27px;
@@ -106,10 +106,10 @@
         font-size: 27px;
     }
     .page3_text {
-        font-size: 11px;
+        font-size: 14px;
     }
     .galochka_item a {
-        font-size: 11px;
+        font-size: 14px;
     }
     .galochka_item img {
         width: 25px;
@@ -207,17 +207,27 @@
     }
 }
 @media (max-width: 1190px)  {
+    .left_item p {
+        text-align: center;
+        margin: 0;
+        white-space: pre-line;
+        font: 300 14px Poppins, sans-serif;
+    }
+    .right_item p {
+        text-align: center;
+        margin: 0;
+        white-space: pre-line;
+        font: 300 14px Poppins, sans-serif;
+    }
     .service-feature-item {
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between center;
+        justify-content: end;
         align-items: center;
         gap: 9px;
     }
     .service-feature-item-right-content {
         flex-direction: row;
-        flex-wrap: wrap-reverse;
-        justify-content: center;
+        justify-content: end;
         align-items: center;
         gap: 9px;
     }
