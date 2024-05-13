@@ -3,20 +3,30 @@
     display: none; /* Скрыть текст */
     position: absolute; /* Абсолютное позиционирование */
     top: 0; /* Расположить сверху */
-    left: 80px; /* Расположить слева */
+    left: 100px; /* Расположить слева */
+}
+.hidden-text p {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+text-transform: capitalize;
+color: #000;
+}
+.hidden-text span {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #7f7f7f;
 }
 
-.product:hover::after .hidden-text {
-    display: block; /* Отобразить текст при наведении */
+.info_containt h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #2c2c2c;
 }
 
-.hidden-text {
-    display: none; /* Скрыть текст */
-}
-
-.product:hover .hidden-text {
-    display: block; /* Отобразить текст при наведении */
-}
 
 .info_containt p {
     font-family: var(--font-family);
@@ -31,8 +41,10 @@ h1 {
     font: 700 45px Montserrat sans-serif;
 }
 a,p {
-    font: 400 16px Poppins, sans-serif;
-    color: gray;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #2c2c2c;
     white-space: pre-line;
 }
 
@@ -68,7 +80,7 @@ a,p {
 .page2_item p {
     font: 300 16px var(--second-family);
     padding: 0px 40px 0px 42px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .page2_item h2 {

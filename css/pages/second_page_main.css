@@ -26,10 +26,11 @@
     padding-bottom: 20px;
     width: 430px;
     height: 284px;
+    margin: 0 auto;
 }
 .page2_main_text {
     align-items: center;
-    margin: 0 auto;
+    margin: 0;
 }
 .page2_item svg {
     padding: 40px;

@@ -14,10 +14,12 @@
 }
 .thrid_background {
     background-image: url("/img/background/bac3.svg");
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 300px;
+    background-size: cover;
+    background-position: bottom 0px left calc(100% + 21.2vw);
+    
 }
+
 @media (max-width: 1259px) {
         .main_background {
             background: transparent; 

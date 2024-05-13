@@ -5,7 +5,7 @@
 .galochka_items {
     display: flex;
     flex-wrap: wrap;
-    gap: 7px;
+    gap: 25px;
 }
 .galochka_inner_item {
     display: flex;
@@ -26,18 +26,23 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 1800px;
+    max-width: 1500px;
+    gap: 100px;
 }
 .page3_main_info {
     gap: 20px;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0;
+    margin-top: -130px;
     align-items: start;
     font: 300 16px Poppins, sans-serif;
 }
-
-._watch {
-    margin: 0 auto;
+@media (max-width: 1212px) {
+    .page3_main_info {
+        margin-top: auto;
+    }
 }
-
+._watch {
+    margin: 0;
+}

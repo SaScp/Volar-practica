@@ -130,6 +130,7 @@
     .main_info {
         padding: 20px;
         padding-bottom: 7px;
+
     }
 
     .info_containt {
@@ -149,12 +150,17 @@
         justify-content: center;
         gap: 10px;
     }
-
-    .watch_img {
+    .main_page{
+        gap: 0px;
+    }
+    .watch_img{
         width: 393px;
         height: 393px;
     }
-
+    .watch_img_2 {
+        width: 393px;
+        height: 393px;
+    }
     .sliding_img {
         flex-direction: row;
     }
