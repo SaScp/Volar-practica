@@ -4,127 +4,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Default slider</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/svg_style.css">
-    <link rel="stylesheet" href="/css/pruduct_style.css">
-    <link rel="stylesheet" href="/css/pages/first_page_main.css">
-    <link rel="stylesheet" href="/css/pages/second_page_main.css">
-    <link rel="stylesheet" href="/css/text_style.css">
-    <link rel="stylesheet" href="/css/pages/thrid_background.css">
-    <link rel="stylesheet" href="/css/pages/four_page_main.css">
-    <link rel="stylesheet" href="/css/pages/five_page_main.css">
-    <link rel="stylesheet" href="/css/pages/six_page_main.css">
-    <link rel="stylesheet" href="/css/pages/seven_page_main.css">
-    <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="/css/swiper.css">
-    <link rel="stylesheet" href="/css/adaptive.css">
+
 </head>
+<style>
+    .active {
+        padding: 4px 150px 0px 0px;
+        background-color: white;
+        border-radius: 15px;
+        border: grey;
+        width: 110px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .active .hidden-text {
+        transition: 0.5s all ease;
+        display: flex; /* Отобразить текст при наведении */
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+        justify-content: start;
+        gap: 5px;
+    }
+    .sliding_items {
+        padding: 40px 0px 0px 0px;
+        display: flex;
+        gap: 10px;
+    }
+    .product {
+        border-radius: 15px;
+        transition: 0.5s all ease;
+        border: solid 1px rgba(128, 128, 128, 0.1);
+        position: relative;
+        margin-left: 5px;
+    }
+
+    .image_item {
+        margin: 0 auto;
+    }
+
+    .product:hover .hidden-text {
+        transition: 0.5s all ease;
+        display: flex; /* Отобразить текст при наведении */
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+        justify-content: start;
+    }
+
+    .product:hover {
+        padding: 4px 150px 0px 0px;
+        background-color: white;
+        border-radius: 15px;
+        border: grey;
+        width: 110px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .hidden-text {
+        transition: 1s ease;
+        display: none; /* Скрыть текст */
+        position: absolute; /* Абсолютное позиционирование */
+        top: 0; /* Расположить сверху */
+        left: 100px; /* Расположить слева */
+        margin: 2px;
+        margin-top: 22px;
+    }
+
+    .hidden-text p {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 18px;
+        text-transform: capitalize;
+        color: #000;
+        margin: 0 auto;
+    }
+
+    .hidden-text span {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        color: #7f7f7f;
+    }
+</style>
 <body>
-    <div class="six_background">
-        <div class="six_main_info">
-            <h2>Feedback From Our Clients</h2>
-            <p>This feedback can come in various forms, such as surveys, online reviews, emails, phone calls.</p>
+
+<div class="sliding_items">
+    <div class="product active" id="product_1">
+        <img class="image_item" src="/img/log2.svg">
+        <div class="hidden-text">
+            <p>Apple Watch SE</p>
+
+            <span>$120.00<del>$125.00</del></span>
+
+            <img src="/img/star/star1.svg">
         </div>
-    
-        <div class="swiper mySwiper">
-    
-                <div class="container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide" id="_1">
-                            <div class="box">
-                                <img class="swiper_img" src="/img/gigachad/gigachad1.svg">
-    
-                                <section class="swider_text">
-                                    <h2>Hello</h2>
-                                    <p>
-                                        One of my favorite features is the watch's water resistance. I love being able to
-                                        wear it while swimming or participating in water sports without worrying about
-                                        damage. The watch also has multiple time zones, which is incredibly useful for my
-                                        frequent international travel.”
-                                    </p>
-                                </section>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" id="_2">
-                            <div class="box">
-                                <img class="swiper_img" src="/img/gigachad/gigachad1.svg">
-                                <section class="swider_text">
-                                    <h2>Hello</h2>
-                                    <p>
-                                        One of my favorite features is the watch's water resistance. I love being able to
-                                        wear it while swimming or participating in water sports without worrying about
-                                        damage. The watch also has multiple time zones, which is incredibly useful for my
-                                        frequent international travel.”
-                                    </p>
-                                </section>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" id="_3">
-                            <div class="box">
-                                <img class="swiper_img" src="/img/gigachad/gigachad1.svg">
-                                <section class="swider_text">
-                                    <h2>Hello</h2>
-                                    <p>
-                                        One of my favorite features is the watch's water resistance. I love being able to
-                                        wear it while swimming or participating in water sports without worrying about
-                                        damage. The watch also has multiple time zones, which is incredibly useful for my
-                                        frequent international travel.”
-                                    </p>
-                                </section>
-    
-                            </div>
-                        </div>
-                        <div class="swiper-slide" id="_4">
-                            <div class="box">
-                                <img class="swiper_img" src="/img/gigachad/gigachad1.svg">
-                                <section class="swider_text">
-                                    <h2>Hello</h2>
-                                    <p>
-                                        One of my favorite features is the watch's water resistance. I love being able to
-                                        wear it while swimming or participating in water sports without worrying about
-                                        damage. The watch also has multiple time zones, which is incredibly useful for my
-                                        frequent international travel.”
-                                    </p>
-                                </section>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" id="_5">
-                            <div class="box">
-                                <img class="swiper_img" src="/img/gigachad/gigachad1.svg">
-                                <section class="swider_text">
-                                    <h2>Hello</h2>
-                                    <p>
-                                        One of my favorite features is the watch's water resistance. I love being able to
-                                        wear it while swimming or participating in water sports without worrying about
-                                        damage. The watch also has multiple time zones, which is incredibly useful for my
-                                        frequent international travel.”
-                                    </p>
-                                </section>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-    
-                </div>
+    </div>
+    <div class="product" id="product_2">
+        <img class="image_item" src="/img/log3.svg">
+        <div class="hidden-text">
+            <p>Apple Watch SE</p>
+
+            <span>$120.00<del>$125.00</del></span>
+
+            <img src="/img/star/star1.svg">
         </div>
-        <div class="hidden_swider">
-            <section>
-                <h2>Hello</h2>
-                <p>
-                    One of my favorite features is the watch's water resistance. I love being able to
-                    wear it while swimming or participating in water sports without worrying about
-                    damage. The watch also has multiple time zones, which is incredibly useful for my
-                    frequent international travel.”
-                </p>
-            </section>
+    </div>
+    <div class="product" id="product_3">
+        <img class="image_item" src="/img/log4.svg">
+        <div class="hidden-text">
+            <p>Apple Watch SE</p>
+
+            <span>$120.00<del>$125.00</del></span>
+
+            <img src="/img/star/star1.svg">
         </div>
     </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="/js/swiper.js"></script>
-</body>
+<script>
+    function event_index() {
+        const list = ['product_1', 'product_2', 'product_3'];
+        console.log(list);
+        list.forEach(el => {
+            const button = document.getElementById(el);
+            console.log(button)
+            button.addEventListener('mouseover', function () {
+                const oldSel = document.getElementsByClassName('active')[0];
+                oldSel.classList.remove('active');
+                button.classList.add('active');
+              
+            });
+        });
+    }
 
+    event_index();
+</script>
+</body>
 </html>

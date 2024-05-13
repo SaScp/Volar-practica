@@ -1,23 +1,4 @@
-.hidden-text {
-    transition: 1s ease;
-    display: none; /* Скрыть текст */
-    position: absolute; /* Абсолютное позиционирование */
-    top: 0; /* Расположить сверху */
-    left: 100px; /* Расположить слева */
-}
-.hidden-text p {
-    font-family: var(--font-family);
-font-weight: 500;
-font-size: 18px;
-text-transform: capitalize;
-color: #000;
-}
-.hidden-text span {
-    font-family: var(--second-family);
-    font-weight: 400;
-    font-size: 16px;
-    color: #7f7f7f;
-}
+
 
 .info_containt h3 {
     font-family: var(--font-family);
@@ -26,7 +7,6 @@ color: #000;
     text-transform: capitalize;
     color: #2c2c2c;
 }
-
 
 .info_containt p {
     font-family: var(--font-family);
