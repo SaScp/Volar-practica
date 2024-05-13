@@ -4,7 +4,7 @@
 .swiper-wrapper {
     align-items: center;
     margin: 0 auto;
-    width: auto;
+    width: 1500px;
 }
 .swiper-slide {
     filter: grayscale(25%) opacity(25%);
