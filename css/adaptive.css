@@ -170,6 +170,11 @@
         width: 160.2px;   
     }
 }
+@media (max-width: 1099px) {
+    .mySwiper {
+        display: none;
+    }
+}
 @media (max-width: 923px) {
     .window_1 {
         display: none;

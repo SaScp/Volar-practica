@@ -7,9 +7,9 @@ const mySwiper = new Swiper('.container', {
     
     coverflowEffect: {
         rotate: 0,
-        stretch: 32,
-        depth: 30,
-        modifier: 42,
+        stretch: 3,
+        depth: 100,
+        modifier: 1,
     },
     pagination: {
         el: '.swiper-pagination',

@@ -4,16 +4,16 @@
 .swiper-wrapper {
     align-items: center;
     margin: 0 auto;
-    width: 1500px;
+    width: 100% !important;
+    height: 439px;
+
 }
 .swiper-slide {
     filter: grayscale(25%) opacity(25%);
 }
-
 .swiper-slide-active {
     filter: blur(0);
     margin-bottom: 250px;
-
 }
 
 .six_background {
@@ -26,16 +26,22 @@
 .mySwiper {
     display: flex;
     flex-direction: column;
-    max-width: 100%;
+    width: auto !important;
     justify-content: center;
-   
+    width: 100% !important;
 }
 .swider_text h2 {
-    margin: 0 auto;
+    margin: 0 ;
     text-align: center;
 }
+.swider_text img {
+    width: 100px;
+    height: 50%;
+}
 .swider_text p {
-    margin: 0 auto;
+    text-align: center;
+    white-space: pre-line;
+    margin: 0 ;
     
 }
 .swiper-3d .swiper-slide-shadow-left {
@@ -44,20 +50,29 @@
 .swiper-3d .swiper-slide-shadow-right {
     background-image:none;
 }
-.swiper-slide-active section{
+.swiper-slide-active section {
     display: flex;
     flex-direction: column;
-    margin: auto 0;
-    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 14px;
+    height: auto;
+    white-space: pre-line;
+    max-width: 100vh !important;
 }
 .swider_text {
     display: none;
+    height: 0;
 }
+
 .swiper-slide {
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
-    
+    transform: scale(1);
     align-items: center;
+    justify-content: center
 }
 
 .swiper_img {
@@ -67,9 +82,6 @@
     overflow: hidden;
 }
 
-.swiper-wrapper div {
-    margin-bottom: 60px;
-}
 
 .box {
     position: relative;
@@ -78,14 +90,15 @@
     align-items: center;
     justify-content: center;
     white-space: pre-line;
+    margin: 0 ;
 }
 
-.none_conteiner {
-    display: none;
-}
 .container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin: 0 auto;
+    align-items: center;
+    margin: 0;
     width: auto;
     height: auto;
 }
@@ -95,6 +108,7 @@
     width: 9px;
     height: 9px;
     z-index: 0;
+    margin-top: 20px;
 }
 .swiper-pagination-bullet {
     position: relative;
