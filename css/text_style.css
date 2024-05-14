@@ -22,7 +22,7 @@ h1 {
 }
 a,p {
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: 300;
     font-size: 16px;
     color: #2c2c2c;
     white-space: pre-line;
