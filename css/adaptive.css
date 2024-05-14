@@ -184,6 +184,9 @@
         margin: 0 auto;
         max-width: 400px;
     }
+    .second_background {
+        gap: 0px;
+    }
 }
 @media (max-width: 1052px) {
     .mySwiper {
