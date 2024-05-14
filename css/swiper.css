@@ -147,3 +147,17 @@ box-sizing: border-box;
 .page2_swiper-pagination {
     display: none;
 }
+.swiper-slide-page2 {
+    display: flex;
+    justify-content: start
+}
+.page5_con {
+    height: 50%;
+width: 100%;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.page5_Swiper {
+    width: 100%;
+}

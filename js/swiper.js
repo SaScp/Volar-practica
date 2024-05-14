@@ -21,7 +21,11 @@ var swiper = new Swiper(".page2_Swiper", {
       el: ".swiper-pagination",
     },
   });
-
+  var swiper = new Swiper(".page5_Swiper", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
 
 
 

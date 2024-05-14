@@ -60,6 +60,10 @@
     background-color: white;
     cursor: pointer;
 }
+.social-media button:hover {
+    transition: all .5s ease;
+    padding: 6px 8px;
+}
 .facebook-media svg {
     margin-left: 5px;
     margin-right: 5px;
