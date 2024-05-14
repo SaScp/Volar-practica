@@ -174,9 +174,7 @@
     .request_data input[type=text] {
         width: 160.2px;   
     }
-    header {
-        margin: 0;
-    }
+
 }
 @media (max-width: 900px) {
     .page2_items  {
@@ -247,13 +245,11 @@
         font: 300 14px Poppins, sans-serif;
     }
     .service-feature-item {
-        flex-direction: row;
         justify-content: end;
         align-items: center;
         gap: 9px;
     }
     .service-feature-item-right-content {
-        flex-direction: row;
         justify-content: end;
         align-items: center;
         gap: 9px;
