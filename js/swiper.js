@@ -16,6 +16,11 @@ const mySwiper = new Swiper('.container', {
         clickable: true
     }
 });
+var swiper = new Swiper(".page2_Swiper", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
 
 
 

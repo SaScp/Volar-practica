@@ -5,7 +5,9 @@
     justify-content: center;
     gap: 40px;
 }
-
+.page2_hidden_container {
+    display: none;
+}
 .page2_items {
     display: flex;
     flex-wrap: wrap;
@@ -34,4 +36,6 @@
 }
 .page2_item svg {
     padding: 40px;
+}
+.page2_wrapper {
 }
